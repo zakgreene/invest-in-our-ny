@@ -1,0 +1,52 @@
+Title: Home
+
+----
+
+Heading: Lorem ipsum dolor sit amet, consectetuer adipiscing elit!
+
+----
+
+Statement:
+
+New York State must immediately raise at least $10 billion in emergency funding through taxes on the wealthy, commit to raising billions in additional revenue in 2021 and block all cuts to working people, Black and brown communities, and immigrants.
+
+Every day our State leaders drag their feet, thousands more New Yorkers go to bed hungry, receive eviction notices, and lose their jobs. Every week, hundreds of small businesses close down and bread lines grow longer.  Meanwhile, the wealthiest New Yorkers continue to grow richer by the minute. Yet our Governor is choosing to cut funding from our struggling communities instead of taxing the wealthiest New Yorkers.
+
+Our communities cannot afford to wait another day. As leaders of grassroots organizations representing hundreds of thousands of New Yorkers across the state, we are united: it is time for this state to put working people first. Stop protecting the wealthiest New Yorkers and start protecting New Yorkers in need.
+
+----
+
+Petition: <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/petition/tax-the-rich-save-our-state?format=js&source=widget&referrer=[object Object]'></script><div id='can-petition-area-tax-the-rich-save-our-state' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
+----
+
+Logos:
+
+- icfj.png
+- reva-david-logan-foundation.png
+- robert-bosch-stiftung.png
+- fritt-ord.png
+- content-fund.png
+- european-endowment-for-democracy.png
+
+----
+
+Orgs:
+
+Zak Greene
+Shed Design
+
+Ange Tran
+New York Communities for Change
+
+Rebecca Bailer
+New York Communities for Change
+
+Olivia Leirer
+New York Communities for Change
+
+Michael Kink
+Strong Economies for All Coalition
+
+Charles Khan
+Strong Economies for All Coalition

@@ -1,0 +1,66 @@
+title: Home
+
+columns:
+  - width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          heading:
+            label: Text
+            type: text
+          statement:
+            label: Statement of Demands
+            type: textarea
+            helps: Appears before the petition signature form
+          petition:
+            label: Petition embed code
+            type: textarea
+            buttons: false
+            help: From ActionNetwork
+          logos:
+            label: Member logos
+            type: files
+            layout: cards
+            query: page.images
+          orgs:
+            label: Sign-ons
+            type: textarea
+            buttons:
+              - link
+              - email
+
+  - width: 1/3
+    sections:
+      social:
+        type: fields
+        fields:
+          facebook:
+            label: Facebook
+            type: headline
+            numbered: false
+          fbimg:
+            label: Image
+            type: files
+            layout: cards
+            query: page.images
+          fbtext:
+            label: Text
+            type: textarea
+            buttons: false
+          twitter:
+            label: Twitter
+            type: headline
+            numbered: false
+          twimg:
+            label: Image
+            type: files
+            layout: cards
+            query: page.images
+          twtext:
+            label: Text
+            type: textarea
+            buttons: false
+
+
+

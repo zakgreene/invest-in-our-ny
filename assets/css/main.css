@@ -1,0 +1,785 @@
+/*
+	HTML5 Reset :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+
+	Eric Meyer					:: http://meyerweb.com
+	HTML5 Doctor				:: http://html5doctor.com
+	and the HTML5 Boilerplate	:: http://html5boilerplate.com
+
+-------------------------------------------------------------------------------*/
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+  display: block;
+}
+
+/* Handle box-sizing while better addressing child elements:
+   http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images and other embedded objects */
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
+img,
+object,
+embed {
+  max-width: 100%;
+}
+
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+
+#map img {
+		max-width: none;
+}
+*/
+/* force a vertical scrollbar to prevent a jumpy page
+html {overflow-y: scroll;} */
+/* we use a lot of ULs that aren't bulleted.
+	you'll have to restore the bullets within content,
+	which is fine because they're probably customized anyway */
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+td {
+  font-weight: normal;
+  vertical-align: top;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+pre {
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */
+}
+
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+.ie6 input {
+  vertical-align: text-bottom;
+}
+
+select, input, textarea {
+  font: 99% sans-serif;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+small {
+  font-size: 85%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+td, td img {
+  vertical-align: top;
+}
+
+/* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {
+  margin: 0;
+}
+
+/* make buttons play nice in IE */
+button,
+input[type=button] {
+  width: auto;
+  overflow: visible;
+}
+
+main {
+  display: block;
+}
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url("../fonts/AtlasGrotesk-BoldItalic-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-BoldItalic-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url("../fonts/AtlasGrotesk-Bold-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Bold-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url("../fonts/AtlasGrotesk-Medium-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Medium-Web.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url("../fonts/AtlasGrotesk-MediumItalic-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-MediumItalic-Web.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+}
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+
+::selection {
+  background: #231F20;
+  color: #fff;
+  text-shadow: none;
+}
+
+ins {
+  background-color: #231F20;
+  color: #fff;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #231F20;
+  color: #fff;
+  font-style: italic;
+}
+
+/* Mozilla dosen't style placeholders by default */
+input:-moz-placeholder {
+  color: #9CA0A4;
+}
+
+textarea:-moz-placeholder {
+  color: #9CA0A4;
+}
+
+/* let's give blockquotes *some* default styling, because unstyled blockquotes are dangerous */
+blockquote {
+  padding: 1em;
+  background: #eee;
+}
+
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background: white;
+}
+
+html, body {
+  height: 100%;
+}
+
+body, select, input, textarea, button {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  color: #231F20;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1025px;
+  padding: 0 1.25rem;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 0 3.15rem;
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+a:hover {
+  color: #fff;
+  opacity: 0.6;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  border-bottom: 1px solid #231F20;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  border: 0;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3.44vw;
+    margin-bottom: 1.775rem;
+  }
+}
+@media (min-width: 1250px) {
+  h2 {
+    font-size: 2.53rem;
+  }
+}
+
+h3 {
+  font-size: 1.4375rem;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+  border: 0;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2.06em;
+    margin-bottom: 2rem;
+  }
+}
+
+p, ul, ol {
+  margin-bottom: 1.5em;
+}
+p:last-child, ul:last-child, ol:last-child {
+  margin-bottom: 0;
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.more {
+  margin-top: 1.775em;
+}
+.more__link, .more__expand {
+  display: block;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+.more__link:before, .more__expand:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 0.475em solid transparent;
+  border-bottom: 0.475em solid transparent;
+  border-left: 1.2em solid #fff;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.15s;
+  margin-right: 0.5em;
+}
+.more__link:first-child, .more__expand:first-child {
+  margin-top: 0;
+}
+.more__link + br + .more__link, .more__expand + br + .more__link, .more__link + br + .more__expand, .more__expand + br + .more__expand {
+  margin-top: 0.85em;
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .more__link, .more__expand {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+  .more__link:first-child, .more__expand:first-child {
+    margin-left: 0;
+  }
+}
+.more.open .more__expand:not(.thought):before {
+  transform: rotate(90deg);
+}
+.more.thought-open .more__expand.thought:before {
+  transform: rotate(90deg);
+}
+.more__text, .more__thought-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.more__text p:first-child, .more__thought-text p:first-child {
+  margin-top: 1em;
+}
+
+.header {
+  background: #231F20;
+  padding: 0.75rem 0 0.65rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 1rem 0 0.9rem;
+  }
+}
+.header > .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.header .logo, .header .menu-open {
+  line-height: 1;
+}
+.header .logo img {
+  height: 1.41176rem;
+}
+@media (min-width: 768px) {
+  .header .logo img {
+    height: 36px;
+  }
+}
+.header .menu-open, .header .menu-close {
+  display: block;
+  width: 1.75rem;
+  cursor: pointer;
+}
+.header .menu-open img, .header .menu-close img {
+  display: block;
+}
+.header .menu-close {
+  position: absolute;
+  top: 1.33rem;
+  width: 2.75rem;
+  padding: 0.5rem;
+  right: 1rem;
+}
+@media (min-width: 768px) {
+  .header .menu-close {
+    width: 2.33rem;
+    top: 1rem;
+    right: 3rem;
+  }
+}
+.header .menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #231F20;
+  padding: 5rem 3rem 2rem;
+  transform: translate(100%, 0);
+  transition: 0.75s ease-in-out;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .header .menu {
+    max-width: 23.25rem;
+  }
+}
+.header .menu.open {
+  transform: translate(0, 0);
+}
+.header .menu.open li {
+  transition: 0.5s ease-in;
+}
+.header .menu.open li:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.header .menu.open li:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.header .menu.open li:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.header .menu.open li:nth-child(5) {
+  transition-delay: 0.4s;
+}
+.header .menu.open li:nth-child(6) {
+  transition-delay: 0.5s;
+}
+.header .menu.open li:nth-child(7) {
+  transition-delay: 0.6s;
+}
+.header .menu.open li:nth-child(n) {
+  transform: translate(0, 0);
+}
+.header .menu ul {
+  font-size: 1.875rem;
+}
+@media (min-width: 768px) {
+  .header .menu ul {
+    font-size: 2.53rem;
+    line-height: 1.25;
+  }
+}
+.header .menu li {
+  margin-bottom: 0.5rem;
+  transition: 0s ease-in 0.75s;
+  transform: translate(20%, 0);
+}
+
+.footer {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #231F20;
+  padding: 0.9em 0;
+  margin-top: 3rem;
+  font-size: 0.75rem;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .footer {
+    font-size: 0.765rem;
+  }
+}
+.footer > .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__wrap {
+  -ms-flex: 1;
+      flex: 1;
+}
+@media (min-width: 768px) {
+  .footer__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .footer__wrap > * {
+    margin-right: 1.425rem;
+  }
+}
+.footer__copy {
+  margin-bottom: 0;
+}
+.footer .riba {
+  width: 70px;
+  display: inline-block;
+  -ms-flex: 0 0 70px;
+      flex: 0 0 70px;
+}
+.footer .riba a {
+  display: block;
+}
+@media (min-width: 768px) {
+  .footer .riba {
+    margin-left: auto;
+  }
+}
+
+.language {
+  text-transform: uppercase;
+}
+.language a {
+  margin-right: 0.33em;
+}
+.language a:hover:after {
+  opacity: 1;
+}
+.language a:after {
+  content: '|';
+  margin-left: 0.66em;
+  opacity: 0.6;
+  transition: 0.15s;
+}
+.language a:last-child:after {
+  content: none;
+}
+
+.teaser, .intro {
+  margin-bottom: 4rem;
+}
+.teaser h1, .intro h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  border: 0;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .teaser h1, .intro h1 {
+    font-size: 3.44vw;
+    margin-bottom: 1.775rem;
+  }
+}
+@media (min-width: 1250px) {
+  .teaser h1, .intro h1 {
+    font-size: 2.53rem;
+  }
+}
+.teaser__figure, .intro__figure {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.teaser__figure img, .intro__figure img {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 550px) {
+  .teaser__figure img, .intro__figure img {
+    max-width: 20.58824rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro .wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+@media (min-width: 768px) {
+  .intro .wrapper > *:first-child {
+    padding-right: 1.425rem;
+  }
+}
+@media (min-width: 768px) {
+  .intro__figure {
+    -ms-flex: 0 0 34%;
+        flex: 0 0 34%;
+    margin-top: 0.75rem;
+  }
+}
+.intro__figure img {
+  height: 8.67941rem;
+  width: auto;
+}
+@media (min-width: 768px) {
+  .intro__figure img {
+    padding-left: 1.4rem;
+  }
+}
+@media (min-width: 768px) {
+  .intro__description p, .intro__description .more__expand {
+    font-size: 0.765rem;
+  }
+  .intro__description .more {
+    margin-top: 1em;
+  }
+}
+
+.team h2, .portfolio h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  border-bottom: 1px solid #231F20;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.dots span {
+  height: 0.85rem;
+  width: 0.85rem;
+  border: 1px solid #fff;
+  display: inline-block;
+  border-radius: 1rem;
+  margin-left: 1.1rem;
+  transition: background 0.5s 0.4s;
+}
+.dots span.true {
+  background: #fff;
+}
+.dots span:first-child {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .dots span {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1.25rem;
+    border-width: 2px;
+  }
+}
+
+.swiper-container .next, .swiper-container .prev {
+  display: block;
+  width: 2.75rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -1.75rem;
+  padding: 1rem;
+  text-align: center;
+  z-index: 40;
+  cursor: pointer;
+  outline: none;
+}
+@media (min-width: 768px) {
+  .swiper-container .next, .swiper-container .prev {
+    width: 4rem;
+  }
+}
+.swiper-container .prev {
+  left: 0;
+  padding-left: 0.5rem;
+}
+@media (min-width: 768px) {
+  .swiper-container .prev {
+    padding-left: 1.5rem;
+  }
+}
+.swiper-container .next {
+  right: 0;
+  padding-right: 0.5rem;
+}
+@media (min-width: 768px) {
+  .swiper-container .next {
+    padding-right: 1.5rem;
+  }
+}
+
+.swiper-wrapper {
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.swiper-slide {
+  width: auto;
+  max-width: 100%;
+}
+
+.gifffer-play-button {
+  display: none;
+}
+
+button {
+  outline: none;
+}
+
+/*# sourceMappingURL=main.css.map */

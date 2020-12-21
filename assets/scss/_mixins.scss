@@ -1,0 +1,265 @@
+
+
+
+@mixin heading-sm {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: $leading-base;
+    border-bottom: $border;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+@mixin heading-lg {
+    font-size: $font-lg-mobile;
+    font-weight: 700;
+    line-height: $leading-tight;
+    margin-bottom: 1.25rem;
+    border: 0;
+    padding-bottom: 0;
+
+    @include mq($md) {
+        font-size: 3.44vw;
+        margin-bottom: 1.775rem;
+    }
+
+    @include mq($xl) {
+        font-size: $font-lg;
+    }
+}
+
+@mixin heading-md {
+    font-size: 1.4375rem;
+    line-height: $leading-tight;
+    margin-bottom: 1rem;
+    border: 0;
+    padding-bottom: 0;
+
+    @include mq($md) {
+        font-size: 2.06em;
+        margin-bottom: 2rem;
+    }
+}
+
+%sm-caps {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+@mixin arrow-right {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-top: 0.475em solid transparent;
+    border-bottom: 0.475em solid transparent;
+    border-left: 1.2em solid $white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+@mixin arrow-left {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-top: 0.475em solid transparent;
+    border-bottom: 0.475em solid transparent;
+    border-right: 1.2em solid $white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+@mixin link-unstyled {
+    color: $text;
+
+    &:hover, &:focus {
+        color: $text;
+    }
+}
+
+
+@mixin button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.45em 1em 0.5em;
+    border: 0;
+    border-radius: 0.33rem;
+    font-size: 1rem;
+    color: $white;
+    background: $link;
+    text-decoration: none;
+    text-align: center;
+    transition: $transition-short;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        color: $white;
+        background: $link-hover;
+    }
+
+    .icon {
+        height: 1.25em;
+        width: 1.25em;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    &.btn-inactive {
+        opacity: 0.5;
+
+        &:hover, &:focus {
+            background: $link;
+        }
+    }
+}
+
+
+
+
+// The Media Query Mixin
+// FOR: Write less verbose Media Queries with variables
+// or using straight figures (eg 320px)
+// WHY: Faster to write. More flexible. Lets you write
+// media query variables on the fly.
+// USE: @include mq(320px, 798px);
+// USE: @include mq($tablet, $desktop);
+// USE: @include mq(max, $desktop);
+
+@mixin mq($bp-1, $bp-2:null) {
+    @if $bp-1 == "max" {
+        @media (max-width:$bp-2 - 1) {
+            @content;
+        }
+    }
+    @elseif $bp-2 == "max" {
+        @media (max-width:$bp-1 - 1) {
+            @content;
+        }
+    }
+    @elseif $bp-2 == null {
+        @media (min-width:$bp-1) {
+            @content;
+        }
+    }
+    //single bp
+
+    @else {
+        @media (min-width:$bp-1) and (max-width:$bp-2 - 1) {
+            @content;
+        }
+    }
+    //bracketed breakpoint
+}
+
+
+// same mixin but using min-height instead of min-width
+
+@mixin mqh($bp-1, $bp-2:null) {
+    @if $bp-1 == "max" {
+        @media (max-height:$bp-2 - 1) {
+            @content;
+        }
+    }
+    @elseif $bp-2 == "max" {
+        @media (max-height:$bp-1 - 1) {
+            @content;
+        }
+    }
+    @elseif $bp-2 == null {
+        @media (min-height:$bp-1) {
+            @content;
+        }
+    }
+    //single bp
+
+    @else {
+        @media (min-height:$bp-1) and (max-height:$bp-2 - 1) {
+            @content;
+        }
+    }
+    //bracketed breakpoint
+}
+
+
+@mixin clearfix {
+    &:after {
+        content: " "; display: block; clear: both;
+    }
+}
+
+// Visually Hidden
+// Hide elements visually but not from screen readers. Great for accessibility hints like skip to content.
+@mixin hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+@mixin shown {
+    border: 0;
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: normal;
+}
+
+
+
+// usage: apply to video container div
+@mixin video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+
+    > iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+////////////////////////////////////////////////
+//
+//  Layout
+//
+////////////////////////////////////////////////
+
+// USAGE
+// ----------
+// $cols        = how many columns in the grid
+// $spacing     = how much space between each item on each side
+// $cols-prev   = was there a different grid at an earlier media query
+//                that needs to be overridden. if so, how many columns was it?
+
+@mixin grid-flex-item($cols, $spacing: 1.25em, $cols-prev: $cols - 1) {
+    margin-bottom: $spacing;
+    margin-right: $spacing;
+    width: calc(#{100% / $cols} - #{$spacing * ($cols - 1) / $cols});
+
+    // add override for if grid was in a different configuration on smaller screens
+    // must come before the last column's margin-right: 0
+    &:nth-child(#{$cols-prev}n) {
+        margin-right: $spacing;
+    }
+
+    &:nth-child(#{$cols}n) {
+        margin-right: 0;
+    }
+}

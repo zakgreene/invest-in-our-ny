@@ -422,7 +422,7 @@ p strong, ul strong, ol strong {
   color: #231F20;
 }
 .header .logo img {
-  height: 1.41176rem;
+  height: 1.4117647059rem;
 }
 @media (min-width: 768px) {
   .header .logo img {
@@ -757,14 +757,6 @@ button {
     margin-top: 2rem;
   }
 }
-.petition__label {
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: .5px;
-  color: #d6ffff;
-  opacity: 0.7;
-  margin-bottom: 0.66em;
-}
 
 .can_embed.v3 #can_embed_form {
   padding: 0 !important;
@@ -809,11 +801,7 @@ button {
 }
 .can_embed.v3 #can_embed_form .control-label {
   color: #d6ffff !important;
-  opacity: 0.7 !important;
   margin-bottom: 0.66em !important;
-}
-.can_embed.v3 #can_embed_form .check_radio_field {
-  columns: 2 180px;
 }
 .can_embed.v3 #can_embed_form .check_radio_field label {
   color: #fff !important;
@@ -835,9 +823,6 @@ button {
   .can_embed.v3 #can_embed_form input[type=submit] {
     font-size: 1.875rem !important;
   }
-}
-.can_embed.v3 #can_embed_form input[type=submit]:hover, .can_embed.v3 #can_embed_form input[type=submit]:focus {
-  background: #d61f1f !important;
 }
 .can_embed.v3 #can_embed_form #can_thank_you {
   background: none !important;
@@ -877,9 +862,6 @@ button {
     font-size: 1.875rem !important;
   }
 }
-.can_embed.v3 #can_embed_form .can_thank_you-block .share_button:hover, .can_embed.v3 #can_embed_form .can_thank_you-block .share_button:focus {
-  background: #d61f1f !important;
-}
 .can_embed.v3 #can_embed_form #d_sharing {
   border-top: none !important;
 }
@@ -896,15 +878,6 @@ button {
 }
 .can_embed.v3 #action_info, .can_embed.v3 #logo_wrap {
   display: none;
-}
-
-section.img {
-  background: #9CA0A4;
-  padding: 0;
-}
-section.img img {
-  display: block;
-  margin: 0 auto;
 }
 
 .facts {
@@ -959,7 +932,6 @@ section.img img {
 .facts__text h2 {
   color: #ffff66;
   text-align: left;
-  text-transform: uppercase;
 }
 .facts .icon {
   height: 8rem;
@@ -974,7 +946,7 @@ section.img img {
 }
 
 .members--logos {
-  background: #d6ffff;
+  background: #fff;
 }
 .members--logos > .wrapper {
   display: -ms-flexbox;
@@ -994,7 +966,7 @@ section.img img {
   width: 100%;
 }
 .members--names p {
-  columns: 3 14.66667rem;
+  columns: 3 14.6666666667rem;
   column-gap: 2rem;
   font-size: 0.875rem;
 }
@@ -1004,14 +976,9 @@ section.img img {
 
 .downloads {
   text-align: center;
-  background: linear-gradient(#d1d3d5 0, #ffff99 10%, #fff) no-repeat;
-  background-size: 100% 100px;
-}
-.downloads > .wrapper {
-  max-width: 44rem;
 }
 .downloads p {
-  font-size: 1.33em;
+  font-size: 1.1rem;
 }
 .downloads .button:first-of-type {
   margin-right: 2rem;
@@ -1021,5 +988,4 @@ section.img img {
   position: absolute;
   left: -9999px;
 }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main (Zaks-Mac-Pro.home's conflicted copy 2020-12-31).css.map */

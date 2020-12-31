@@ -5,41 +5,116 @@
 ///////////////////////////////
 
 
-.intro {
-    background: $light-cyan;
-}
+.top {
+    background: $navy;
+    color: $white;
+    padding-top: 0;
+    border-top: 0.3rem solid $red;
 
-.petition-embed {
-    padding-top: $pad-sm;
-    background: $light-cyan;
+    &__header {
+        background: $white;
+        color: $text;
+        position: relative;
+        margin: 0 #{-$page-margin-sm} $gutter;
+        padding: $page-margin-sm;
+        padding-left: #{4.5rem + $page-margin-sm*2};
 
-    @include mq($md) {
-        padding-top: $pad-md;
-
-        > .wrapper {
-            max-width: $p-center-max;
+        @include mq($md) {
+            padding: $gutter;
+            padding-right: $gutter*0.75;
+            padding-left: 0;
+            margin-left: 0;
+            margin-right: 0;
         }
-    }
 
-    @include mq($lg) {
-        padding-top: $section-pad;
+        > * {
+            position: relative;
+        }
 
-        > .wrapper {
-            display: flex;
-            max-width: $max-width;
-
-            > div {
-                flex: 1;
-
-                &:first-child {
-                    margin-right: $gutter;
-                }
+        &:before {
+            @include mq($md) {
+                position: absolute;
+                top: 0;
+                right: 0;
+                content: '';
+                background: $white;
+                height: 100%;
+                width: 100vw;
+            }
+            
+            @include mq($lg) {
+                right: 0;
+                width: 50vw;
             }
         }
     }
 
+    &__logo {
+        position: absolute;
+        top: 0;
+        left: $page-margin-sm;
+        width: 4.5rem;
+
+        @include mq($md) {
+            width: 5.5rem;
+            left: -7rem;
+        }
+    }
+
+    > .wrapper {
+        @include mq($lg) {
+            display: flex;
+        }
+    }
+
+    &__col {
+        @include mq($md) {
+            max-width: $p-center-max;
+            margin: 0 auto;
+            padding-left: 6.5rem;
+        }
+
+        @include mq($lg) {
+            flex: 1;
+            padding-left: 0;
+
+            &:first-child {
+                margin-right: $gutter;
+            }
+        }
+    }
+
+    &__title {
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 0.33em;
+    }
+
+    &__dek {
+        font-size: $font-md;
+        line-height: $leading-tight;
+    }
+}
+
+.petition {
+
     &__statement {
         margin-bottom: $pad-sm;
+    }
+
+    &__embed {
+        @include mq($md) {
+            margin-top: $gutter;
+        }
+    }
+
+    &__label {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: .5px;
+        color: $light-cyan;
+        opacity: 0.7;
+        margin-bottom: 0.66em;
     }
 }
 
@@ -68,15 +143,10 @@
         input, textarea, select {
             font-family: $body-font !important;
             font-size: $base-sm !important;
-            border-top: none !important;
-            border-left: none !important;
-            border-bottom: 0.25em solid $cyan !important;
-            border-right: 0.25em solid $cyan !important;
+            border: none !important;
 
             @include mq($md) {
                 font-size: $base !important;
-                border-bottom: 0.2em solid $cyan !important;
-                border-right: 0.2em solid $cyan !important;
             }
         }
 
@@ -102,10 +172,16 @@
         }
 
         .control-label {
-            display: none !important;
+            color: $light-cyan !important;
+            opacity: 0.7 !important;
+            margin-bottom: 0.66em !important;
+        }
 
-            @include mq($md) {
-                display: block !important;
+        .check_radio_field {
+            columns: 2 $xs/2;
+
+            label {
+                color: $white !important;
             }
         }
 
@@ -116,6 +192,10 @@
         input[type=submit] {
             @include button-lg-override;
         }
+
+
+
+        // thank you
 
         #can_thank_you {
             background: none !important;
@@ -143,6 +223,18 @@
                 @include button-lg-override;
             }
         }
+
+        #d_sharing {
+            border-top: none !important;
+            
+            label {
+                color: $grey !important;
+
+                @include mq($md) {
+                    font-size: 0.675rem !important;
+                }
+            }
+        }
     }
 
     #can_embed_form_inner * {
@@ -152,16 +244,24 @@
     #action_info, #logo_wrap {
         display: none;
     }
+}
 
-    #d_sharing label {
-        @include mq($md) {
-            font-size: 0.675rem !important;
-        }
+
+section.img {
+    background: $grey;
+    padding: 0;
+
+    img {
+        display: block;
+        margin: 0 auto;
     }
 }
 
 
 .facts {
+    background: $navy;
+    color: $white;
+
     .swiper-wrapper {
         padding: $section-pad-mobile 0 #{$section-pad-mobile + $pad-md};
 
@@ -183,13 +283,9 @@
             @include mq($lg) {
                 display: flex;
                 align-items: center;
-            }
-        }
 
-        @include mq($md) {
-            &:nth-child(odd) {
-                h2 {
-                    transform: rotate(4deg);
+                > *:first-child {
+                    margin-right: $gutter;
                 }
             }
         }
@@ -203,22 +299,37 @@
         }
     }
 
+    &__image {
+        flex: 2;
+    }
+
+    &__text {
+        flex: 1;
+        text-align: left;
+
+        h2 {
+            color: $yellow;
+            text-align: left;
+        text-transform: uppercase;
+        }
+    }
+
     .icon {
         height: 8rem;
         width: 8rem;
         margin-bottom: $pad-sm;
 
         @include mq($lg) {
-
+            height: 15rem;
+            width: 15rem;
         }
     }
 }
 
 
 .members {
-
     &--logos {
-        background: $white;
+        background: $light-cyan;
 
         > .wrapper {
             display: flex;
@@ -238,6 +349,7 @@
     }
 
     &--names {
+
         p {
             columns: 3 #{$p-center-max/3};
             column-gap: $gutter;
@@ -253,9 +365,15 @@
 
 .downloads {
     text-align: center;
+    background: linear-gradient($light-grey 0, $light-yellow 10%, $white) no-repeat;
+    background-size: 100% 100px;
+
+    > .wrapper {
+        max-width: $p-center-max;
+    }
 
     p {
-        font-size: $font-md;
+        font-size: 1.33em;
     }
 
     .button:first-of-type {

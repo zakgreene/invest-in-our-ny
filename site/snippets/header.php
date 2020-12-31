@@ -17,6 +17,8 @@
 </head>
 <body>
 
+
+<?php if ($page->template() != 'home'): ?>
 <header class="header">
     <div class="wrapper">
         <a class="logo" href="<?= $site->url() ?>"><!-- <img src="<?= $kirby->url('assets') ?>/img/logo.svg" alt="<?= $site->title() ?>" />  --><?= $site->title() ?></a>
@@ -33,4 +35,4 @@
         </nav> -->
     </div>
 </header>
-
+<?php endif ?>

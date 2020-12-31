@@ -34,7 +34,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: $leading-base;
-    background: $bg-grey;
+    background: $white;
 }
 
 html, body {
@@ -74,15 +74,11 @@ a {
 
     &:hover {
         color: $link-hover;
-        opacity: 0.9;
     }
 }
 
-h1 {
-    @include heading-sm;
-}
 
-h2 {
+h1, h2 {
     @include heading-lg;
 }
 
@@ -114,7 +110,6 @@ p, ul, ol {
 
 .header {
     padding: $pad-sm 0;
-    background: $light-cyan;
 
     @include mq($md) {
         padding-bottom: $pad-md;
@@ -255,6 +250,7 @@ p, ul, ol {
 
         @include mq($lg) {
             display: block;
+            margin-bottom: 0;
         }
     }
 
@@ -282,7 +278,10 @@ p, ul, ol {
         max-height: 0;
         overflow: hidden;
         transition: max-height $transition-long ease;
-        margin-top: 1.5em;
+
+        p:first-child {
+            margin-top: 1.5em;
+        }
 
         @include mq($lg) {
             max-height: none !important;

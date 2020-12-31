@@ -10,24 +10,20 @@ columns:
             label: Top header
             type: headline
             numbered: false
-            query: page.images
-            layout: cards
-            max: 1
-          top-img:
+          topimg:
             label: Logo
             type: files
             width: 1/4
+            layout: cards
+            max: 1
           heading:
             label: Headline
             type: text
             width: 3/4
-          gap-top:
-            type: gap
-            width: 1/4
           subhead:
             label: Subhead
             type: text
-            help: Appears directly below main headerv
+            help: Appears directly below main header
           line-top:
             type: line
           statement:

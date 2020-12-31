@@ -6,9 +6,30 @@ columns:
       fields:
         type: fields
         fields:
+          top:
+            label: Top header
+            type: headline
+            numbered: false
+            query: page.images
+            layout: cards
+            max: 1
+          top-img:
+            label: Logo
+            type: files
+            width: 1/4
           heading:
-            label: Text
+            label: Headline
             type: text
+            width: 3/4
+          gap-top:
+            type: gap
+            width: 1/4
+          subhead:
+            label: Subhead
+            type: text
+            help: Appears directly below main headerv
+          line-top:
+            type: line
           statement:
             label: Statement of Demands
             type: textarea

@@ -4,12 +4,21 @@
 $black:             #231F20;
 $white:             #fff;
 $grey:              #9CA0A4;
-$light-grey:		lighten($grey, 20%);
-$bg-grey:			lighten($grey, 50%);
+$dark-grey:         darken($grey, 20%);
+$light-grey:        lighten($grey, 20%);
+
+$red:               #ff3333;
+$cyan:              #33ffff;
+$yellow:            #ffff66;
+$purple:            #2020d1;
+$light-cyan:        lighten($cyan, 32%);
+$light-yellow:      lighten($yellow, 10%);
+$bg-grey:           lighten(desaturate($light-yellow, 60%), 15%);
 
 $text:              $black;
-$link:              $white;
-$link-hover:        $white;
+$link:              $red;
+$link-hover:        $red;
+$header:            $purple;
 
 
 // breakpoints
@@ -19,26 +28,28 @@ $sm:                550px;
 $md:                768px;      // tablet portrait
 $lg:                1025px;     // tablet wide
 $xl:                1250px;     // desktop
-$max-width:         $lg;     	// the point at which $base-lg is 24px
+$max-width:         $lg;        // the point at which $base-lg is 24px
 
-$pad-sm:            2.05rem;
-$pad-lg:            3.6rem;
+
+// fonts
+
+$body-font:         Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+$header-font:       PantonNarrow-Heavy, 'Helvetica Neue', Helvetica, sans-serif;
 
 
 // font size
 
 $base:              17px;
-$base-sm:           16px;
+$base-sm:           15px;
 $base-lg:           #{$base/$xl * 100}vw;
 $base-xl:           24px;
 
-$font-lg:           2.53rem;     // 43px
+$font-lg:           2.75rem;
+$font-md:           1.33rem;
 $font-sm:           0.875rem;    // 14px
-$font-xs:           0.765rem;    // 13px
 
 $font-xl-mobile:    2.1875rem;   // 35px
 $font-lg-mobile:    1.875rem;    // 30px
-$font-sm-mobile:    0.75rem;     // 12px
 
 $leading-base:      1.5;
 $leading-loose:     1.75;
@@ -49,7 +60,16 @@ $leading-tight:     1.25;
 
 $page-margin:       3.15rem;
 $page-margin-sm:    1.25rem;
-$gutter:            1.425rem;
+$gutter:            2rem;
+
+$pad-sm:                1.5rem;
+$pad-md:                3rem;
+$pad-lg:                4rem;
+
+$section-pad-mobile:    3.5rem;
+$section-pad:           5rem;
+
+$p-center-max:          44rem;
 
 
 // transitions

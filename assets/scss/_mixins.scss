@@ -2,48 +2,62 @@
 
 
 @mixin heading-sm {
+    font-family: $header-font;
     font-size: 1rem;
     font-weight: 500;
     line-height: $leading-base;
-    border-bottom: $border;
-    padding-bottom: 0.5rem;
-    margin-bottom: 2.5rem;
+    @extend %sm-caps;
+    color: $header;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 @mixin heading-lg {
+    font-family: $header-font;
     font-size: $font-lg-mobile;
     font-weight: 700;
     line-height: $leading-tight;
-    margin-bottom: 1.25rem;
     border: 0;
     padding-bottom: 0;
+    margin: 0 auto 1.25rem;
+    max-width: $p-center-max;
+    text-align: center;
+    color: $header;
+    text-shadow: 0.05em 0.1em 0 $light-yellow;
 
     @include mq($md) {
-        font-size: 3.44vw;
-        margin-bottom: 1.775rem;
+        font-size: $font-lg;
+        transform: rotate(-4deg);
     }
 
-    @include mq($xl) {
-        font-size: $font-lg;
+    &:last-child {
+        margin-bottom: 0;
     }
 }
 
 @mixin heading-md {
+    font-family: $header-font;
     font-size: 1.4375rem;
     line-height: $leading-tight;
     margin-bottom: 1rem;
     border: 0;
     padding-bottom: 0;
+    color: $header;
 
     @include mq($md) {
         font-size: 2.06em;
         margin-bottom: 2rem;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
     }
 }
 
 %sm-caps {
     text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
 
@@ -83,21 +97,19 @@
 @mixin button {
     display: inline-block;
     vertical-align: middle;
-    padding: 0.45em 1em 0.5em;
+    padding: 0.66em 1.5em;
     border: 0;
     border-radius: 0.33rem;
-    font-size: 1rem;
+    font-size: 1.15em;
     color: $white;
-    background: $link;
+    background: $header;
     text-decoration: none;
     text-align: center;
     transition: $transition-short;
     cursor: pointer;
-
-    &:hover, &:focus {
-        color: $white;
-        background: $link-hover;
-    }
+    box-shadow: 0.1em 0.2em 0 $light-yellow;
+    font-family: $header-font;
+    @extend %sm-caps;
 
     .icon {
         height: 1.25em;
@@ -113,6 +125,17 @@
             background: $link;
         }
     }
+}
+
+
+@mixin button-lg-override {
+    font-family: $header-font !important;
+    font-size: $font-md !important;
+    letter-spacing: 0.05em !important;
+    border-radius: 0.5em !important;
+    padding: 0.66em !important;
+    line-height: normal !important;
+    transition: $transition-short !important;
 }
 
 

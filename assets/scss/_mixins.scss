@@ -3,11 +3,11 @@
 
 @mixin heading-sm {
     font-family: $header-font;
-    font-size: 1rem;
+    font-size: $font-md;
     font-weight: 500;
     line-height: $leading-base;
     @extend %sm-caps;
-    color: $header;
+    color: $header-bg;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -22,7 +22,8 @@
     margin: 0 auto 1.25rem;
     max-width: $p-center-max;
     text-align: center;
-    color: $header;
+    color: $header-bg;
+    letter-spacing: 0.025em;
     // text-shadow: 0.05em 0.1em 0 $light-yellow;
 
     @include mq($md) {
@@ -84,13 +85,33 @@
 }
 
 
-// @mixin link-unstyled {
-//     color: $text;
 
-//     &:hover, &:focus {
-//         color: $text;
-//     }
-// }
+@mixin dark-bg {
+    color: $white;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $white;
+    }
+
+    a {
+        @include link-dark-bg;
+    }
+}
+
+
+@mixin link-dark-bg {
+    color: $light-cyan;
+    opacity: 0.7;
+
+    &:hover, &:focus {
+        opacity: 1;
+    }
+
+    &[aria-current=page] {
+        opacity: 1;
+        text-decoration: underline;
+    }
+}
 
 
 @mixin button {
@@ -99,7 +120,7 @@
     padding: 0.66em 1.5em;
     border: 0;
     border-radius: 0.33rem;
-    font-size: 1.15em;
+    font-size: 1rem;
     color: $white;
     background: $link;
     text-decoration: none;
@@ -108,8 +129,9 @@
     cursor: pointer;
     font-family: $header-font;
     @extend %sm-caps;
+    appearance: none;
 
-    &:hover, &:focus {
+    &:hover, &:focus, .button-wrap:hover &, .button-wrap:hover & {
         background: $link-hover;
         color: $white;
     }
@@ -130,7 +152,6 @@
     }
 }
 
-
 @mixin button-lg-override {
     font-family: $header-font !important;
     font-size: 1.5rem !important;
@@ -140,6 +161,7 @@
     line-height: normal !important;
     transition: $transition-short !important;
     background-color: $link !important;
+    appearance: none;
 
     @include mq($md) {
         font-size: $font-lg-mobile !important;
@@ -148,6 +170,16 @@
     &:hover, &:focus {
         background: $link-hover !important;
     }
+}
+
+
+@mixin input {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0.5em 0.75em;
+    transition: $transition-short;
+    border: $border;
 }
 
 

@@ -15,6 +15,8 @@
             <li><?= $item->title()->link() ?></li>
             <?php endforeach ?>
         </ul>
+
+        <a class="footer__logo" href="<?= $site->url() ?>"><img src="<?= $site->logo_foot()->toFile()->url() ?>" alt="<?= $site->title() ?>" /></a>
     </div>
 </footer>
 

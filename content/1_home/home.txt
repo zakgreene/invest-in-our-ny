@@ -16,9 +16,13 @@ Subhead: The Invest in Our New York Act raises $50 billion to rebuild our econom
 
 ----
 
+Statement-pre: New York is facing an unprecedented economic crisis: while millions of New Yorkers can’t make rent or put food on the table, the wealthiest New Yorkers have grown $77 billion richer during the pandemic.
+
+----
+
 Statement:
 
-New York is facing an unprecedented economic crisis: Over 1.4 million New Yorkers are facing eviction. 60% of New Yorkers have lost income. 25% of NYC residents are struggling to put food on the table. Meanwhile, the wealthiest New Yorkers have grown $77 billion richer during the pandemic. We know our economy will only recover when working people have money in their wallets — and that means Governor Andrew Cuomo must end tax breaks for the wealthy and start investing in our New York.
+Meanwhile, the wealthiest New Yorkers have grown $77 billion richer during the pandemic. We know our economy will only recover when working people have money in their wallets — and that means Governor Andrew Cuomo must end tax breaks for the wealthy and start investing in our New York.
 
 We demand: $50 billion in new revenue by ending tax breaks for the wealthiest New Yorkers; Prevent cuts to public programs; Invest in high quality education, jobs, housing, healthcare and more, and ensure revenue benefits the most vulnerable communities, including low-income New Yorkers, communities of color, workers excluded from federal unemployment and essential workers.
 
@@ -26,107 +30,214 @@ We can take care of each other and rebuild our economy if we raise $50 billion t
 
 ----
 
+Petition-pre: Sign the petition to Invest in Our New York
+
+----
+
 Petition: <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/petition/invest-in-our-ny?format=js&source=widget'></script><div id='can-petition-area-invest-in-our-ny' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
+----
+
+Inter-img:
+
+- sampleimg.png
+
+----
+
+Inter-bg: 9CA0A4
+
+----
+
+Slideshow-pre: We demand the passage of these 6 bills.
+
+----
+
+Slideshow:
+
+- 
+  img:
+    - sampleimg-2-1.png
+  text: |
+    ## Progressive Income Tax
+    
+    Creates an equitable tax system where New Yorkers who earn significantly more money pay a significantly higher tax rate.
+- 
+  img:
+    - sampleimg-2-1.png
+  text: |
+    ## Investment Income Tax
+    
+    Taxes income from investments like stocks the same way the state currently taxes wages.
+- 
+  img:
+    - sampleimg-2-1.png
+  text: |
+    ## The Heirs’ Tax
+    
+    A tax on large sums of inherited wealth.
+- 
+  img:
+    - sampleimg-2-1.png
+  text: |
+    ## Billionaires’ Tax
+    
+    A tax on New York's 120 billionaires who are worth $600 billion.
+- 
+  img:
+    - sampleimg-2-1.png
+  text: |
+    ## Wall Street Tax
+    
+    Unlike financial centers like London and Hong Kong, NY doesn’t tax financial transactions. This places a small tax on stocks and bonds trades.
+- 
+  img:
+    - sampleimg-2-1.png
+  text: |
+    ## The Corporate Tax
+    
+    A bill to repeal the Trump corporate tax cuts, by restoring taxes on the profit a corporation makes each year.
+
+----
+
+Logos-title: Endorsers
 
 ----
 
 Logos:
 
-- icfj.png
-- reva-david-logan-foundation.png
-- robert-bosch-stiftung.png
-- fritt-ord.png
-- content-fund.png
-- european-endowment-for-democracy.png
+- make-the-road-ny.png
+- citizen-action-ny.png
+- alliance-for-quality-education.png
+- empire-state-indivisible.png
+- housing-justice-for-all.png
+- ny-communities-for-change.png
+- strong-economy-for-all.png
+- working-families-party.png
+- nyc-dsa.png
+- vocal-ny.png
+
+----
+
+Orgs-title: Supporters
+
+----
+
+Orgs-pre:
+
+- NY State Nurses Association
+- New York State United Teachers
+- Professional Staff Congress
+- Citizen Action of New York
+- Make The Road Action
+- Buffalo Teachers Federation
+- Community Voices Heard Power
+- New York Professional Nurses Union Political Action Fund
+- VOCAL-NY Action Fund
+- Hudson Valley Area Labor Federation
+- International Brotherhood of Teamsters Local 445
+- International Brotherhood of Teamsters Local 814
+- Laundry, Distribution and Food Service Joint Board
+- Metropolitan Council on Housing
+- Teamsters 264
+- UAW 7902 Region 9A
+- UAW 2325 Region 9A
+- UAW 2320 Region 9A
+- UAW 2110 Region 9A
+- New York State UAW Cap Council
+- New York Communities For Change
+- CIR/SEIU Healthcare
+- International Brotherhood of Teamsters Local 808
+- Long Island Progressive Coalition
+- NYPAN
+- Jewish Vote
+- Nobody Leaves Mid-Hudson
+- Rockaway Youth Action Fund
 
 ----
 
 Orgs:
 
-NY State Nurses Association
-New York State United Teachers
-Professional Staff Congress
-Citizen Action of New York
-Make The Road Action
-Buffalo Teachers Federation
-Community Voices Heard Power
-New York Professional Nurses Union Political Action Fund
-VOCAL-NY Action Fund
-Hudson Valley Area Labor Federation
-International Brotherhood of Teamsters Local 445
-International Brotherhood of Teamsters Local 814
-Laundry, Distribution and Food Service Joint Board
-Metropolitan Council on Housing
-Teamsters 264
-UAW 7902 Region 9A
-UAW 2325 Region 9A
-UAW 2320 Region 9A
-UAW 2110 Region 9A
-New York State UAW Cap Council
-New York Communities For Change
-CIR/SEIU Healthcare
-International Brotherhood of Teamsters Local 808
-Long Island Progressive Coalition
-NYPAN
-Jewish Vote
-Nobody Leaves Mid-Hudson
-Rockaway Youth Action Fund
-NY State Nurses Association
-New York State United Teachers
-Professional Staff Congress
-Citizen Action of New York
-Make The Road Action
-Buffalo Teachers Federation
-Community Voices Heard Power
-New York Professional Nurses Union Political Action Fund
-VOCAL-NY Action Fund
-Hudson Valley Area Labor Federation
-International Brotherhood of Teamsters Local 445
-International Brotherhood of Teamsters Local 814
-Laundry, Distribution and Food Service Joint Board
-Metropolitan Council on Housing
-Teamsters 264
-UAW 7902 Region 9A
-UAW 2325 Region 9A
-UAW 2320 Region 9A
-UAW 2110 Region 9A
-New York State UAW Cap Council
-New York Communities For Change
-CIR/SEIU Healthcare
-International Brotherhood of Teamsters Local 808
-Long Island Progressive Coalition
-NYPAN
-Jewish Vote
-Nobody Leaves Mid-Hudson
-Rockaway Youth Action Fund
-NY State Nurses Association
-New York State United Teachers
-Professional Staff Congress
-Citizen Action of New York
-Make The Road Action
-Buffalo Teachers Federation
-Community Voices Heard Power
-New York Professional Nurses Union Political Action Fund
-VOCAL-NY Action Fund
-Hudson Valley Area Labor Federation
-International Brotherhood of Teamsters Local 445
-International Brotherhood of Teamsters Local 814
-Laundry, Distribution and Food Service Joint Board
-Metropolitan Council on Housing
-Teamsters 264
-UAW 7902 Region 9A
-UAW 2325 Region 9A
-UAW 2320 Region 9A
-UAW 2110 Region 9A
-New York State UAW Cap Council
-New York Communities For Change
-CIR/SEIU Healthcare
-International Brotherhood of Teamsters Local 808
-Long Island Progressive Coalition
-NYPAN
-Jewish Vote
-Nobody Leaves Mid-Hudson
-Rockaway Youth Action Fund
+- NY State Nurses Association
+- New York State United Teachers
+- Professional Staff Congress
+- Citizen Action of New York
+- Make The Road Action
+- Buffalo Teachers Federation
+- Community Voices Heard Power
+- New York Professional Nurses Union Political Action Fund
+- VOCAL-NY Action Fund
+- Hudson Valley Area Labor Federation
+- International Brotherhood of Teamsters Local 445
+- International Brotherhood of Teamsters Local 814
+- Laundry, Distribution and Food Service Joint Board
+- Metropolitan Council on Housing
+- Teamsters 264
+- UAW 7902 Region 9A
+- UAW 2325 Region 9A
+- UAW 2320 Region 9A
+- UAW 2110 Region 9A
+- New York State UAW Cap Council
+- New York Communities For Change
+- CIR/SEIU Healthcare
+- International Brotherhood of Teamsters Local 808
+- Long Island Progressive Coalition
+- NYPAN
+- Jewish Vote
+- Nobody Leaves Mid-Hudson
+- Rockaway Youth Action Fund
+- NY State Nurses Association
+- New York State United Teachers
+- Professional Staff Congress
+- Citizen Action of New York
+- Make The Road Action
+- Buffalo Teachers Federation
+- Community Voices Heard Power
+- New York Professional Nurses Union Political Action Fund
+- VOCAL-NY Action Fund
+- Hudson Valley Area Labor Federation
+- International Brotherhood of Teamsters Local 445
+- International Brotherhood of Teamsters Local 814
+- Laundry, Distribution and Food Service Joint Board
+- Metropolitan Council on Housing
+- Teamsters 264
+- UAW 7902 Region 9A
+- UAW 2325 Region 9A
+- UAW 2320 Region 9A
+- UAW 2110 Region 9A
+- New York State UAW Cap Council
+- New York Communities For Change
+- CIR/SEIU Healthcare
+- International Brotherhood of Teamsters Local 808
+- Long Island Progressive Coalition
+- NYPAN
+- Jewish Vote
+- Nobody Leaves Mid-Hudson
+- Rockaway Youth Action Fund
+
+----
+
+Downloads-pre: You can learn more about the campaign for the Invest In Our New York Act in the downloadable PDF documents below
+
+----
+
+Downloads:
+
+- 
+  pdf:
+    - voices-proposal-2019-12-16.pdf
+  img:
+    - cover.png
+  button: Download Summary
+  file:
+    - voices-proposal-2019-12-16.pdf
+- 
+  pdf:
+    - voices-proposal-2019-12-16.pdf
+  img:
+    - cover.png
+  button: Download Report
+  file:
+    - voices-proposal-2019-12-16.pdf
 
 ----
 
@@ -143,3 +254,7 @@ Twimg:
 ----
 
 Twtext: 
+
+----
+
+Statemen-pre: 

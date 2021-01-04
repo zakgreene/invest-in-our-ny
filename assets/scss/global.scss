@@ -70,7 +70,7 @@ section {
 a {
     color: $link;
     text-decoration: none;
-    transition: opacity 0.15s;
+    transition: $transition-short;
 
     &:hover {
         color: $link-hover;
@@ -94,7 +94,7 @@ p, ul, ol {
     }
 
     strong {
-        color: $header;
+        color: $header-bg;
     }
 }
 
@@ -103,38 +103,76 @@ p, ul, ol {
     width: 2rem;
 }
 
-.button {
+.button, input[type=submit] {
     @include button;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=tel], textarea {
+    @include input;
+}
+
+.field {
+    margin-bottom: 1.5em;
+
+    @include mq($md) {
+        display: flex;
+    }
+
+    label {
+        display: inline-block;
+        margin-bottom: 0.25em;
+
+        @include mq($md) {
+            flex: 1;
+        }
+    }
+
+    input[type=text], input[type=email], input[type=number], input[type=tel], textarea {
+        @include mq($md) {
+            flex: 3;
+        }
+    }
 }
 
 
 .header {
     padding: $pad-sm 0;
+    background: $header-bg;
+    @include dark-bg;
 
-    @include mq($md) {
-        padding-bottom: $pad-md;
+    > .wrapper {
+        @include mq($md) {
+            display: flex;
+            align-items: baseline;
+        }
     }
 
-    @include mq($lg) {
-        padding-top: $pad-md;
-        padding-bottom: $pad-lg;
-    }
-
-    .logo, .menu-open {
-        line-height: 1;
-    }
-
-    .logo {
+     &__logo {
         display: block;
-        @include heading-sm;
-        color: $text;
+        margin: 0 auto;
+        width: 6rem;
 
-        img {
-            height: #{24px/$base}rem;
+        @include mq($md) {
+            width: 8rem;
+            margin: 0;
+            margin-right: $gutter;
+        }
+    }
 
-            @include mq($md) {
-                height: 36px;
-            }
+    a.header__logo {
+        opacity: 1;
+
+        &:hover, &:focus {
+            opacity: 0.7;
+        }
+    }
+
+    h1 {
+        margin-top: $pad-sm;
+
+        @include mq($md) {
+            margin: 0;
+            text-align: left;
         }
     }
 
@@ -212,13 +250,13 @@ p, ul, ol {
 
 .footer {
     flex-shrink: 0;
-    background: $dark-grey;
-    padding: $pad-sm 0;
-    font-size: $font-sm;
-    color: $white;
+    background: $header-bg;
+    @include dark-bg;
+    padding: $pad-sm 0 $pad-md;
 
-    a {
-        color: $white;
+    @include mq($md) {
+        font-size: $font-sm;
+        padding: $pad-md 0 $section-pad;
     }
 
     ul {
@@ -227,6 +265,10 @@ p, ul, ol {
 
         li {
             margin-right: $gutter;
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 
@@ -240,6 +282,16 @@ p, ul, ol {
             > * {
                 margin-right: $gutter;
             }
+        }
+    }
+
+    &__logo {
+        display: block;
+        margin: $pad-md auto 0;
+        width: 6rem;
+
+        @include mq($md) {
+            width: 8rem;
         }
     }
 }
@@ -282,10 +334,6 @@ p, ul, ol {
         p:first-child {
             margin-top: 1.5em;
         }
-
-        @include mq($lg) {
-            max-height: none !important;
-        }
     }
 }
 
@@ -326,39 +374,47 @@ p, ul, ol {
         display: block;
         width: 2.75rem;
         position: absolute;
-        top: 50%;
-        margin-top: -1.75rem;
+        bottom: $pad-sm;
         padding: 1rem;
         text-align: center;
         z-index: 40;
         cursor: pointer;
         outline: none;
+        opacity: 0.6;
 
         @include mq($md) {
             width: 4rem;
+            top: 50%;
+            margin-top: -1.75rem;
+        }
+
+        &:hover, &:focus {
+            opacity: 1;
         }
     }
 
     .prev {
-        left: 0;
+        left: 1rem;
         padding-left: 0.5rem;
 
         @include mq($md) {
+            left: 0;
             padding-left: 1.5rem;
         }
     }
 
     .next {
-        right: 0;
+        right: 1rem;
         padding-right: 0.5rem;
 
         @include mq($md) {
+            right: 0;
             padding-right: 1.5rem;
         }
     }
 
     .swiper-pagination-bullets {
-        bottom: $pad-sm;
+        bottom: $pad-md;
     }
 
     .swiper-pagination-bullet {
@@ -368,8 +424,9 @@ p, ul, ol {
         width: 0.7rem;
         margin: 0 0.25rem;
 
-        &-active {
-            background: $purple;
+        &-active, &:hover {
+            background: $light-cyan;
+            transition: $transition-short;
             opacity: 1;
         }
     }

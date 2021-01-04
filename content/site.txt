@@ -1,1 +1,37 @@
 Title: Invest in Our New York
+
+----
+
+Logo-top:
+
+- invest-sm.svg
+
+----
+
+Logo-foot:
+
+- invest-sm-bw.svg
+
+----
+
+Fbtext: 
+
+----
+
+Fbimg:
+
+- invest-sm.png
+
+----
+
+Twtext: 
+
+----
+
+Twimg:
+
+- invest-sm.png
+
+----
+
+Logo: - invest-banner.svg

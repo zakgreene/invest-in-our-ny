@@ -2,8 +2,6 @@
 
 <main class="contact">
     <section><div class="wrapper">
-        <h1><?= $page->title()->html() ?></h1>
-
         <?php if($success): ?>
         <div class="alert success">
             <p><?= $success ?></p>
@@ -39,10 +37,15 @@
                 <?= isset($alert['phone']) ? '<span class="alert error">' . html($alert['phone']) . '</span>' : '' ?>
             </div>
             <div class="field">
-                <label for="contact">
-                    Preferred contact method <abbr title="required">*</abbr>
-                </label>
-                <input type="radio" id="contact" name="contact" value="<?= $data['contact'] ?? '' ?>">
+                <p>Preferred contact method</p>
+                <div class="field__choice">
+                    <input type="radio" id="contact" name="contact" value="<?= $data['contact'] ?? '' ?>">
+                    <span>Email</span>
+                </div>
+                <div class="field__choice">
+                    <input type="radio" id="contact" name="contact" value="<?= $data['contact'] ?? '' ?>">
+                    <span>Phone</span>
+                </div>
                 <?= isset($alert['phone']) ? '<span class="alert error">' . html($alert['contact']) . '</span>' : '' ?>
             </div>
             <div class="field">

@@ -13,6 +13,7 @@ $yellow:            #ffff66;
 $purple:            #2020d1;
 $light-cyan:        lighten($cyan, 32%);
 $light-yellow:      lighten($yellow, 10%);
+$bg-yellow:         lighten(desaturate($light-yellow, 20%), 10%);
 $bg-grey:           lighten(desaturate($light-yellow, 60%), 15%);
 
 // r2
@@ -21,7 +22,7 @@ $navy:              #0d1b3f;
 $text:              $black;
 $link:              $red;
 $link-hover:        darken(desaturate($red, 25%), 12%);
-$header:            $navy;
+$header-bg:         $navy;
 
 
 // breakpoints
@@ -46,8 +47,8 @@ $base:              17px;
 $base-sm:           15px;
 $base-xl:           24px;
 
-$font-lg:           2.05rem;
-$font-md:           1.1rem;
+$font-lg:           2rem;
+$font-md:           1.15rem;
 $font-sm:           0.875rem;    // 14px
 
 $font-xl-mobile:    2.1875rem;   // 35px
@@ -81,4 +82,4 @@ $transition-short:  0.15s;
 $transition-long:   0.5s;
 
 
-$border:            1px solid $text;
+$border:            1px solid $light-grey;

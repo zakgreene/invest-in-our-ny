@@ -35,6 +35,23 @@
     }
 }
 
+@mixin heading-body {
+    font-family: $body-font;
+    font-size: $font-md;
+    font-weight: 700;
+    line-height: $leading-tight;
+    margin: 0 auto 0.5em;
+    max-width: $p-center-max;
+    text-align: center;
+    color: $header-bg;
+    letter-spacing: 0;
+    text-align: left;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
 // @mixin heading-md {
 //     font-family: $header-font;
 //     font-size: 1.4375rem;
@@ -87,6 +104,7 @@
 
 
 @mixin dark-bg {
+    background: $navy;
     color: $white;
 
     h1, h2, h3, h4, h5, h6 {
@@ -95,6 +113,10 @@
 
     a {
         @include link-dark-bg;
+    }
+
+    strong {
+        color: $light-yellow;
     }
 }
 
@@ -180,6 +202,12 @@
     padding: 0.5em 0.75em;
     transition: $transition-short;
     border: $border;
+}
+
+
+@mixin list-reset {
+    list-style: none;
+    margin: 0;
 }
 
 

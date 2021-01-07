@@ -1,1 +1,5 @@
 Title: Error
+
+----
+
+Text: Whoops! Page not found. Please return to the petition page.

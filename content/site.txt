@@ -20,7 +20,8 @@ Fbtext:
 
 Fbimg:
 
-- invest-sm.png
+- >
+  squarepetitionshareable_investinournewyorkact.jpg
 
 ----
 
@@ -30,7 +31,8 @@ Twtext:
 
 Twimg:
 
-- invest-sm.png
+- >
+  twitter_petitionshareable_investinournewyorkact.jpg
 
 ----
 

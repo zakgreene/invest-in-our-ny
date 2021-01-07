@@ -1,1 +1,9 @@
-<h1><?= $page->title() ?></h1>
+<?php snippet('header') ?>
+
+<main class="general">
+    <section><div class="wrapper">
+        <?= $page->blocks()->toBlocks() ?>
+    </div></section>
+</main>
+
+<?php snippet('footer') ?>

@@ -2,6 +2,7 @@
 
 return [
     'debug'  => true,
+    'schnti.cachebuster.active' => false,
 
     'pedroborges.meta-tags.default' => function ($page, $site) {
         return [

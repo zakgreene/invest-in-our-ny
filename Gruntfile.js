@@ -65,6 +65,6 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin']); //'concat', 'svgmin', 'svgstore', 'svg2png'
+    grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'cacheBust']); //'concat', 'svgmin', 'svgstore', 'svg2png'
 
 };

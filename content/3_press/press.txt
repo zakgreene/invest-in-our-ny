@@ -1,0 +1,44 @@
+Title: Press
+
+----
+
+Press:
+
+- 
+  img:
+    - invest10.jpg
+  title: Invest in Our New York. Invest in CUNY.
+  url: >
+    https://www.psc-cuny.org/news-events/invest-our-new-york-invest-cuny
+  excerpt: 'People in New York are hurting — with the students and communities served by CUNY bearing the brunt of sickness and job loss. Working-class and poor New Yorkers, Black and brown people, and immigrants need more investment in the institutions that serve their communities. But Governor Cuomo has "withheld" 20% of State funding for CUNY since the start of the COVID crisis.'
+  source: CUNY Professional Staff Congress
+- 
+  img: [ ]
+  title: Invest in Our New York. Invest in CUNY.
+  url: >
+    https://www.psc-cuny.org/news-events/invest-our-new-york-invest-cuny
+  excerpt: 'People in New York are hurting — with the students and communities served by CUNY bearing the brunt of sickness and job loss. Working-class and poor New Yorkers, Black and brown people, and immigrants need more investment in the institutions that serve their communities. But Governor Cuomo has "withheld" 20% of State funding for CUNY since the start of the COVID crisis.'
+  source: CUNY Professional Staff Congress
+- 
+  img:
+    - sampleimg-2-1.png
+  title: Invest in Our New York. Invest in CUNY.
+  url: >
+    https://www.psc-cuny.org/news-events/invest-our-new-york-invest-cuny
+  excerpt: 'People in New York are hurting — with the students and communities served by CUNY bearing the brunt of sickness and job loss. Working-class and poor New Yorkers, Black and brown people, and immigrants need more investment in the institutions that serve their communities. But Governor Cuomo has "withheld" 20% of State funding for CUNY since the start of the COVID crisis.'
+  source: ""
+- 
+  img:
+    - invest10.jpg
+  title: Invest in Our New York. Invest in CUNY.
+  url: >
+    https://www.psc-cuny.org/news-events/invest-our-new-york-invest-cuny
+  excerpt: ""
+  source: CUNY Professional Staff Congress
+- 
+  img: [ ]
+  title: Invest in Our New York. Invest in CUNY.
+  url: >
+    https://www.psc-cuny.org/news-events/invest-our-new-york-invest-cuny
+  excerpt: ""
+  source: ""

@@ -1,5 +1,5 @@
 <?php
-return function($kirby, $pages, $page) {
+return function($kirby, $pages, $page, $site) {
 
     $alert = null;
 
@@ -47,10 +47,11 @@ return function($kirby, $pages, $page) {
                     'to'       => $page->email()->toString(),
                     'subject'  => $site->title() . ': Message from ' . esc($data['name']),
                     'data'     => [
-                        'text'   => esc($data['text']),
+                        'email'   => esc($data['email']),
                         'sender' => esc($data['name']),
                         'contact' => esc($data['contact']),
-                        'phone'  => esc($data['phone'])
+                        'phone'  => esc($data['phone']),
+                        'text'   => esc($data['text'])
                     ]
                 ]);
 

@@ -1,8 +1,14 @@
 title: Page
 preset: page
 fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
+  blocks:
+    type: blocks
+    fieldsets:
+      - heading
+      - text
+      - list
+      - image
+      - gallery
+      - video
+      - markdown
 

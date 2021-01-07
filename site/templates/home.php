@@ -86,7 +86,7 @@
     <?php endif ?>
 
 
-    <?php if($page->orgs()->isNotEmpty()): ?>
+    <?php if($page->orgs_pre()->isNotEmpty()): ?>
     <section class="members members--names"><div class="wrapper">
         <?php if($page->orgs_title()->isNotEmpty()): ?>
         <h3><?= $page->orgs_title()->html() ?></h3>
@@ -95,9 +95,11 @@
         <div class="members__names more">
             <div class="more__first"><?= $page->orgs_pre()->kt() ?></div>
 
+            <?php if($page->orgs()->isNotEmpty()): ?>
             <a class="more__expand">Read More <span class="plus">+</span></a>
 
             <div class="more__text"><?= $page->orgs()->kt() ?></div>
+            <?php endif ?>
         </div>
     </div></section>
     <?php endif ?>
@@ -111,12 +113,15 @@
 
         <ul>
             <?php foreach($page->downloads()->toStructure() as $download): ?>
+            <?php if($download->pdf()->isNotEmpty()): ?>
             <li>
-                <a class="button-wrap" href="<?= $download->pdf()->toFile()->url() ?>"><img src="<?= $download->img()->toFile()->thumb([
-                    'width'     => 400,
-                ])->url() ?>" alt="<?= $download->button()->html() ?>" />
+                <a class="button-wrap" href="<?= $download->pdf()->toFile()->url() ?>" target="_blank">
+                    <?php if($download->img()->isNotEmpty()): ?><img src="<?= $download->img()->toFile()->thumb([
+                        'width'     => 400,
+                    ])->url() ?>" alt="<?= $download->button()->html() ?>" /><?php endif ?>
                 <span class="button"><?= $download->button()->html() ?></a>
             </li>
+            <?php endif ?>
             <?php endforeach ?>
         </ul>
     </div></section>

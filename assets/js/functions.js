@@ -60,29 +60,7 @@ function initPage(){
 
     // read more
 
-    if (window.location.hash == '#more') {
-        openMore();
-    }
-
-    $("main.about + .footer .riba a").click( function() {
-        openMore();
-    });
-
-    function openMore() {
-        $("#more").addClass("open");
-
-        var maxHeight = 0;
-        $("#more .more__text").children().each( function() {
-            maxHeight = maxHeight + $(this).outerHeight(true);
-        });
-        $("#more .more__text").css("max-height", maxHeight);
-
-        window.setTimeout( function() {
-            $(window).scrollTop(0); //$('#more').offset().top - 80
-        }, 100);
-    }
-
-    $(".more__expand").click(function(){
+    $(".more__expand").not(".members--names .more__expand").click(function(){
         var container = $(this).parent();
         var info = container.find(".more__text");
         var isOpen = false;
@@ -97,6 +75,14 @@ function initPage(){
         }
         else
             info.css("max-height", "");
+    });
+
+
+    $(".members--names .more__expand").click(function(){
+        var container = $(this).parent();
+        var info = container.find(".more__text");
+        container.toggleClass('open');
+        info.slideToggle();
     });
 }
 

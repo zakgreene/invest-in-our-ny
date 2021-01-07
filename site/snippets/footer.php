@@ -27,7 +27,7 @@
     <?= js('assets/js/swiper.min.js') ?>
 <?php endif ?>
 
-<?= js('assets/js/functions.js?0130') ?>
+<?= js('assets/js/functions.js') ?>
 <script>$(document).ready(initPage);</script>
 
 </body>

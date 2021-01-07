@@ -159,7 +159,7 @@ columns:
     sections:
       files:
         type: files
-        help: Image and Download fields on this page will pull from this list
+        # help: Image and Download fields on this page will pull from this list
 
 
 

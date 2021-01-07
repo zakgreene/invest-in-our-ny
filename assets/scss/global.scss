@@ -47,6 +47,15 @@ body, select, input, textarea, button {
 }
 
 main {
+    ul li {
+        list-style: square;
+        margin-left: 1em;
+        margin-bottom: 1em;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 section {
@@ -153,7 +162,7 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
         width: 6rem;
 
         @include mq($md) {
-            width: 8rem;
+            width: 10.25rem;
             margin: 0;
             margin-right: $gutter;
         }
@@ -442,4 +451,11 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
 
 button {
     outline: none;
+}
+
+
+.general {
+    section > .wrapper {
+        max-width: $p-center-max;
+    }
 }

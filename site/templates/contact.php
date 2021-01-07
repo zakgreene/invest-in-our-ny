@@ -2,14 +2,20 @@
 
 <main class="contact">
     <section><div class="wrapper">
-        <?php if($success): ?>
-        <div class="alert success">
-            <p><?= $success ?></p>
+
+        <div class="contact__pre">
+            <?php if($success): ?>
+            <div class="alert success">
+                <p><?= $success ?></p>
+            </div>
+            <?php else: ?>
+            <?= $page->text()->kt() ?>
+
+            <?php if (isset($alert['error'])): ?>
+                <div><?= $alert['error'] ?></div>
+            <?php endif ?>
         </div>
-        <?php else: ?>
-        <?php if (isset($alert['error'])): ?>
-            <div><?= $alert['error'] ?></div>
-        <?php endif ?>
+
         <form method="post" action="<?= $page->url() ?>">
             <div class="very-real-field">
                 <label for="website">Website <abbr title="required">*</abbr></label>
@@ -50,7 +56,7 @@
             </div>
             <div class="field">
                 <label for="text">
-                    Text <abbr title="required">*</abbr>
+                    Message <abbr title="required">*</abbr>
                 </label>
                 <textarea id="text" name="text" required>
                     <?= $data['text']?? '' ?>

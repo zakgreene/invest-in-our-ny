@@ -6,8 +6,16 @@
 }
 
 .contact {
-    form {
+    &__pre, form {
         max-width: $p-center-max;
+    }
+
+    &__pre {
+        margin-bottom: $section-pad-mobile;
+
+        @include mq($md) {
+            margin-bottom: $section-pad;
+        }
     }
 
 }

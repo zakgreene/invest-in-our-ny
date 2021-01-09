@@ -68,6 +68,29 @@
         <div class="swiper-pagination"></div>
     </section>
     <?php endif ?>
+    
+
+    <?php if($page->downloads()->isNotEmpty()): ?>
+    <section class="downloads"><div class="wrapper">
+        <?php if($page->downloads_pre()->isNotEmpty()): ?>
+        <?= $page->downloads_pre()->kt() ?>
+        <?php endif ?>
+
+        <ul>
+            <?php foreach($page->downloads()->toStructure() as $download): ?>
+            <?php if($download->pdf()->isNotEmpty()): ?>
+            <li>
+                <a class="button-wrap" href="<?= $download->pdf()->toFile()->url() ?>" target="_blank">
+                    <?php if($download->img()->isNotEmpty()): ?><img src="<?= $download->img()->toFile()->thumb([
+                        'width'     => 400,
+                    ])->url() ?>" alt="<?= $download->button()->html() ?>" /><?php endif ?>
+                <span class="button"><?= $download->button()->html() ?></a>
+            </li>
+            <?php endif ?>
+            <?php endforeach ?>
+        </ul>
+    </div></section>
+    <?php endif ?>
 
 
     <?php if($page->logos()->isNotEmpty()): ?>
@@ -101,29 +124,6 @@
             <div class="more__text"><?= $page->orgs()->kt() ?></div>
             <?php endif ?>
         </div>
-    </div></section>
-    <?php endif ?>
-
-
-    <?php if($page->downloads()->isNotEmpty()): ?>
-    <section class="downloads"><div class="wrapper">
-        <?php if($page->downloads_pre()->isNotEmpty()): ?>
-        <?= $page->downloads_pre()->kt() ?>
-        <?php endif ?>
-
-        <ul>
-            <?php foreach($page->downloads()->toStructure() as $download): ?>
-            <?php if($download->pdf()->isNotEmpty()): ?>
-            <li>
-                <a class="button-wrap" href="<?= $download->pdf()->toFile()->url() ?>" target="_blank">
-                    <?php if($download->img()->isNotEmpty()): ?><img src="<?= $download->img()->toFile()->thumb([
-                        'width'     => 400,
-                    ])->url() ?>" alt="<?= $download->button()->html() ?>" /><?php endif ?>
-                <span class="button"><?= $download->button()->html() ?></a>
-            </li>
-            <?php endif ?>
-            <?php endforeach ?>
-        </ul>
     </div></section>
     <?php endif ?>
 </main>

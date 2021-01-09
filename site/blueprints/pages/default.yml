@@ -10,5 +10,79 @@ fields:
       - image
       - gallery
       - video
-      - markdown
+      section-start:
+        name: Section
+        icon: page
+        fields:
+          bg:
+            label: Background color
+            type: text
+            maxlength: 6
+            width: 1/4
+            placeholder: ffffff
+            before: #
+      columns:
+        name: 2-column
+        icon: book
+        fields:
+          left:
+            label: Left
+            type: textarea
+            help: <a href="https://getkirby.com/docs/guide/content/text-formatting" target="_blank">See formatting options</a>
+          right:
+            label: Right
+            type: textarea
+      links:
+        name: Link button(s)
+        icon: url
+        fields:
+          pre:
+            label: Call to action
+            type: textarea
+            buttons: false
+          links:
+            label: Links
+            type: structure
+            fields:
+              url:
+                labeL: Link
+                type: url
+                required: true
+                width: 2/3
+              button:
+                type: text
+                label: Button text
+                width: 1/2
+      downloads:
+        name: Download button(s)
+        icon: document
+        fields:
+          pre:
+            label: Call to action
+            type: textarea
+            buttons: false
+          downloads:
+            label: Downloads
+            type: structure
+            fields:
+              pdf:
+                width: 1/2
+                type: files
+                label: Downloadable file
+                query: page.documents
+                help: PDF recommended
+                required: true
+              img:
+                width: 1/2
+                type: files
+                label: Image preview
+                query: page.images
+                layout: cards
+              gap:
+                type: gap
+                width: 1/2
+              button:
+                type: text
+                label: Button text
+                width: 1/2
 

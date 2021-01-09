@@ -37,12 +37,12 @@
             </div>
             <div class="field">
                 <label for="phone">
-                    Phone <abbr title="required">*</abbr>
+                    Phone
                 </label>
                 <input type="text" id="phone" name="phone" value="<?= $data['phone'] ?? '' ?>">
                 <?= isset($alert['phone']) ? '<span class="alert error">' . html($alert['phone']) . '</span>' : '' ?>
             </div>
-            <div class="field">
+            <!-- <div class="field">
                 <p>Preferred contact method</p>
                 <div class="field__choice">
                     <input type="radio" id="contact" name="contact" value="<?= $data['contact'] ?? '' ?>">
@@ -53,7 +53,7 @@
                     <span>Phone</span>
                 </div>
                 <?= isset($alert['phone']) ? '<span class="alert error">' . html($alert['contact']) . '</span>' : '' ?>
-            </div>
+            </div> -->
             <div class="field">
                 <label for="text">
                     Message <abbr title="required">*</abbr>

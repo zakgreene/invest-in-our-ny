@@ -453,6 +453,10 @@ button {
     outline: none;
 }
 
+figure.video {
+    @include video;
+}
+
 
 .general {
     section > .wrapper {

@@ -95,6 +95,21 @@ h3 {
     @include heading-sm;
 }
 
+h4 {
+    @include heading-body;
+}
+
+h5 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    @extend %sm-caps;
+    font-size: $font-sm;
+    margin-bottom: 0.25em;
+}
+
 p, ul, ol {
     margin-bottom: 1.5em;
 
@@ -149,6 +164,10 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
     background: $header-bg;
     @include dark-bg;
 
+    @include mq($md) {
+        padding: #{$pad-sm + 0.5rem} 0 #{$pad-sm - 0.5rem};
+    }
+
     > .wrapper {
         @include mq($md) {
             display: flex;
@@ -159,7 +178,7 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
      &__logo {
         display: block;
         margin: 0 auto;
-        width: 6rem;
+        width: 8rem;
 
         @include mq($md) {
             width: 10.25rem;
@@ -177,30 +196,52 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
     }
 
     h1 {
-        margin-top: $pad-sm;
+        margin: $pad-sm 0 0;
+        text-align: center;
 
         @include mq($md) {
-            margin: 0;
+            margin-top: 0;
             text-align: left;
+            position: relative;
+            top: -0.5rem;
         }
     }
+}
+
+.header, .top {
 
     .menu-open, .menu-close {
         display: block;
-        width: 1.75rem;
+        width: 2rem;
         cursor: pointer;
+
+        &:hover {
+            opacity: 0.7;
+        }
 
         img {
             display: block;
         }
     }
 
+    .menu-open {
+        position: absolute;
+        top: $pad-sm;
+        right: $page-margin-sm;
+
+        @include mq($md) {
+            position: static;
+            margin-left: auto;
+            align-self: flex-start;
+        }
+    }
+
     .menu-close {
         position: absolute;
-        top: 1.33rem;
+        top: $page-margin-sm;
+        right: $page-margin-sm;
         width: 2.75rem;
         padding: 0.5rem;
-        right: 1rem;
 
         @include mq($md) {
             width: 2.33rem;
@@ -216,7 +257,8 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
         height: 100%;
         top: 0;
         right: 0;
-        background: $black;
+        z-index: 100;
+        background: $dark-navy;
         padding: 5rem 3rem 2rem;
         transform: translate(100%, 0);
         transition: 0.75s ease-in-out;
@@ -240,6 +282,19 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
             }
         }
 
+        a {
+            color: $white;
+            opacity: 1;
+
+            &:hover, &:focus {
+                color: $light-cyan;
+            }
+
+            &[aria-current=page] {
+                color: $light-cyan;
+            }
+        }
+
         ul {
             font-size: $font-lg-mobile;
 
@@ -250,9 +305,9 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
         }
 
         li {
+            margin-left: 0;
             margin-bottom: 0.5rem;
-            transition: 0s ease-in 0.75s;
-            transform: translate(20%, 0);
+            list-style: none;
         }
     }
 }
@@ -297,7 +352,7 @@ input[type=text], input[type=email], input[type=number], input[type=tel], textar
     &__logo {
         display: block;
         margin: $pad-md auto 0;
-        width: 6rem;
+        width: 8rem;
 
         @include mq($md) {
             width: 8rem;
@@ -460,6 +515,122 @@ figure.video {
 
 .general {
     section > .wrapper {
-        max-width: $p-center-max;
+        > * {
+            max-width: $p-center-max;
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        > figure {
+            max-width: $max-width;
+            margin: $section-pad-mobile #{-$page-margin-sm};
+            text-align: center;
+
+            @include mq($md) {
+                margin: $section-pad 0;
+            }
+
+            > ul {
+                text-align: center;
+
+                @include mq($md) {
+                    display: flex;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: -#{$section-pad - 3rem};
+                }
+
+                li {
+                    list-style: none;
+                    margin: 0 $page-margin-sm $gutter;
+
+                    @include mq($md) {
+                        margin-left: $gutter/2;
+                        margin-right: $gutter/2;
+                    }
+                }
+            }
+        }
+
+        .columns {
+            max-width: $max-width;
+            margin: $section-pad-mobile 0;
+
+            @include mq($md) {
+                display: flex;
+                margin: $section-pad 0;
+            }
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &__col {
+                margin-bottom: $pad-sm;
+
+                @include mq($md) {
+                    margin-bottom: 0;
+                    flex: 1;
+
+                    &:first-child {
+                        margin-right: $gutter;
+                    }
+                }
+            }
+        }
+
+        .downloads, .links {
+            max-width: $max-width;
+
+            &:last-child {
+                @include mq($md) {
+                    margin-bottom: -4rem;
+                }
+            }
+        }
+
+        .links {
+            &:last-child {
+                @include mq($md) {
+                    margin-bottom: -1.5rem;
+                }
+            }
+        }
+    }
+
+    .downloads, .links {
+        border-top: $border;
+        padding-top: $pad-md;
+        margin-bottom: $pad-md;
+
+        &:first-child {
+            border-top: 0;
+            padding-top: 0;
+        }
+
+        > p {
+            max-width: $p-center-max;
+            font-size: $font-md;
+        }
+
+        > * {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .links {
+
     }
 }

@@ -8,8 +8,11 @@
     line-height: $leading-base;
     @extend %sm-caps;
     color: $header-bg;
-    text-align: center;
     margin-bottom: 1em;
+
+    &:first-of-type {
+        margin-top: 0;
+    }
 }
 
 @mixin heading-lg {
@@ -19,9 +22,8 @@
     line-height: $leading-xtight;
     border: 0;
     padding-bottom: 0;
-    margin: 0 auto 1.25rem;
+    margin: 0 0 1.25rem;
     max-width: $p-center-max;
-    text-align: center;
     color: $header-bg;
     letter-spacing: 0.025em;
     // text-shadow: 0.05em 0.1em 0 $light-yellow;
@@ -33,6 +35,10 @@
     &:last-child {
         margin-bottom: 0;
     }
+
+    &:first-of-type {
+        margin-top: 0;
+    }
 }
 
 @mixin heading-body {
@@ -40,7 +46,7 @@
     font-size: $font-md;
     font-weight: 700;
     line-height: $leading-tight;
-    margin: 0 auto 0.5em;
+    margin: 0 0 0.5em;
     max-width: $p-center-max;
     text-align: center;
     color: $header-bg;
@@ -49,6 +55,10 @@
 
     &:last-child {
         margin-bottom: 0;
+    }
+
+    &:first-of-type {
+        margin-top: 0;
     }
 }
 
@@ -127,11 +137,12 @@
 
     &:hover, &:focus {
         opacity: 1;
+        color: $white;
     }
 
     &[aria-current=page] {
         opacity: 1;
-        text-decoration: underline;
+        color: $white;
     }
 }
 

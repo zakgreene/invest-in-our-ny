@@ -1,0 +1,163 @@
+Title: News
+
+----
+
+Press:
+
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.00.40-pm.png
+  title: >
+    Progressive Advocates Unite Around
+    Tax-the-Rich Push in New York
+  url: >
+    https://spectrumlocalnews.com/nys/central-ny/ny-state-of-politics/2021/01/08/progressive-advocates-unite-around-tax-the-rich-push-in-new-york
+  excerpt: |
+    **Advocacy groups from across the state **this week are backing a united push to increase taxes and end tax breaks on upper income earners in New York in a bid to raise $50 billion in revenue ahead of a contentious state budget season.
+    
+    The groups range from labor unions like DC 37 and PSC-CUNY in New York City to tenant advocacy organizations in Rochester and local progressive organizations with chapters in Tompkins County and Buffalo.
+    (link: https://spectrumlocalnews.com/nys/central-ny/ny-state-of-politics/2021/01/08/progressive-advocates-unite-around-tax-the-rich-push-in-new-york text: [ keep reading ])
+  source: 'NY1 - JAN. 08, 2021'
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.33.50-pm.png
+  title: >
+    Albany legislators voice support for
+    "Invest in Our New York Act"
+  url: >
+    https://13wham.com/news/local/local-legislators-voice-support-for-invest-in-our-new-york-act
+  excerpt: |
+    **Albany, N.Y./Rochester, N.Y**. – Legislators behind a new proposal in Albany say their legislation would target tax breaks against New York’s wealthiest to help reduce the state’s deficit.
+    
+    The “Invest in Our New York Act” aims to address economic inequality in the state, including for families impacted by COVID-19.
+    
+    Supporters claim past state budgets have aimed at cutting crucial services as a means to help New York’s economy. This, they allege, has come at a cost for vulnerable New Yorkers.
+    (link: https://13wham.com/news/local/local-legislators-voice-support-for-invest-in-our-new-york-act text: [ keep reading ])
+  source: 'WHAM - Jan. 07, 2021'
+- 
+  img:
+    - city_newspaper.png
+  title: >
+    Democratic lawmakers back new taxes on
+    rich to plug state budget gap
+  url: >
+    https://13wham.com/news/local/local-legislators-voice-support-for-invest-in-our-new-york-act
+  excerpt: |
+    **Democratic state lawmakers from the Rochester area are backing a package of bills that would raise taxes on wealthy New Yorkers.**
+    
+    Assembly members Harry Bronson, Jen Lunsford, Sarah Clark, and Demond Meeks, along with Senators Jeremy Cooney and Samra Brouk joined together during a Zoom call to announce their support for the Invest in Our New York Act. The series of six bills would place a number of new taxes on the wealthy and would raise between $71 and $94 billion in the first year, according to the lawmakers.
+    (link: https://www.rochestercitynewspaper.com/rochester/democratic-lawmakers-back-new-taxes-on-rich-to-plug-state-budget-gap/Content?oid=12699838 text: [ keep reading ])
+  source: Rochester City Newspaper
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-11.24.26-am.png
+  title: >
+    Progressives launch campaign to tax the
+    rich — Cuomo, de Blasio trade blame on
+    vaccine delays — More contagious U.K.
+    Covid strain found in New York
+  url: >
+    https://www.politico.com/newsletters/new-york-playbook/2021/01/05/progressives-launch-campaign-to-tax-the-rich-cuomo-de-blasio-trade-blame-on-vaccine-delays-more-contagious-uk-covid-strain-found-in-new-york-491291
+  excerpt: |
+    One day before the Legislature is supposed to start its new session, the big names on the state’s progressive left are announcing a coalition and campaign called Invest In Our New York, which promises that raising revenue from the richest individuals and corporations will be their top priority in 2021. They’re starting later today outside Gov. Andrew Cuomo’s New York City office and are planning a multi-punch rollout with events in Albany, Rochester and Long Island this week.
+    
+    **It’s a direct counter to the past and current budgeting practices of the governor, who has for months held off on addressing the fiscal strain he says the pandemic has caused and instead chosen to wait on the federal government for aid.**
+    (link: https://www.politico.com/newsletters/new-york-playbook/2021/01/05/progressives-launch-campaign-to-tax-the-rich-cuomo-de-blasio-trade-blame-on-vaccine-delays-more-contagious-uk-covid-strain-found-in-new-york-491291 text: [ keep reading ])
+  source: 'POLITICO - Jan. 05, 2021'
+- 
+  img:
+    - download.png
+  title: >
+    As New York faced COVID-caused financial
+    crunch, lawmakers and grassroots push to
+    make the wealthy pay higher taxes
+  url: >
+    https://www.nydailynews.com/news/politics/new-york-elections-government/ny-wealth-taxes-covid-deficit-revenue-budget-20210105-serwuazxifhizkwzd3ohcrscju-story.html
+  excerpt: |
+    **ALBANY** — A new coalition of progressive legislators and grassroots organizations wants New York’s billionaires to pay their fair share.
+    
+    "By ending tax breaks for the rich, Gov., Cuomo and our leaders in Albany can prove their commitment to small businesses struggling to keep their doors open, students who deserve quality education, and everyday New Yorkers who suddenly find themselves unemployed, on food lines and unable to pay their rent," said Rebecca Bailin, who is managing the campaign.
+    (link: https://www.nydailynews.com/news/politics/new-york-elections-government/ny-wealth-taxes-covid-deficit-revenue-budget-20210105-serwuazxifhizkwzd3ohcrscju-story.html text: [ keep reading ])
+  source: 'New York Daily News - Jan. 05, 2021'
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.00.40-pm.png
+  title: >
+    Progressive Advocates Call for Higher
+    Taxes on Wealthy Ahead of 2021
+    Legislative Session
+  url: >
+    https://www.ny1.com/nyc/all-boroughs/news/2021/01/05/progressive-advocates-call-for-higher-taxes-on-wealthy-ahead-of-2021-legislative-session
+  excerpt: |
+    **Facing a multi-billion budget deficit brought on by the pandemic, a coalition of Democrats and their progressive allies say the solution is higher taxes on the wealthy.**…
+    
+    “Yes, we need federal government help. I will give you that. But even that alone won’t save this city’s new state,” said Public Advocate Jumaane Williams. “What [you] have to do as governor is use all of the tools that are available to you. You have not done that.”
+    
+    In a (link: https://investinourny.org/media/pages/home/f437403786-1610116749/ionyfullreport_1.2_2021launch.pdf text: 35-page report titled,) “invest in our New York, plan to fund our future,” advocates made their case that the wealthy are not paying their fair share, and need to step up now.
+    (link: https://www.ny1.com/nyc/all-boroughs/news/2021/01/05/progressive-advocates-call-for-higher-taxes-on-wealthy-ahead-of-2021-legislative-session text: [ keep reading ])
+  source: 'NY1 - JAN. 05, 2021'
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.10.36-pm.png
+  title: >
+    Public Advocate Williams’ campaign to
+    ‘Invest in NY’ presses Cuomo to tax
+    the rich
+  url: >
+    https://www.amny.com/news/public-advocate-jumaane-williams-launches-statewide-campaign-to-invest-in-our-new-york/
+  excerpt: |
+    “We are so proud to launch the ‘Invest in Our New York’ campaign to take care of each other and to rebuild our economy by ending tax breaks for the richest New Yorkers,” said Sochie Nnaemeka, director of the Working Families party.
+    (link: https://www.amny.com/news/public-advocate-jumaane-williams-launches-statewide-campaign-to-invest-in-our-new-york/ text: [ keep reading ])
+  source: 'AMNY - Jan. 05, 2021'
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.30.14-pm.png
+  title: >
+    Lawmakers, grassroots groups rally,
+    asking New York to tax the rich
+  url: >
+    https://cnycentral.com/news/local/lawmakers-grassroots-groups-rally-asking-new-york-to-tax-the-rich
+  excerpt: |
+    **ALBANY, N.Y. (WRGB)** — As New York faces an unprecedented budget deficit of $60 billion over 4 years, working New Yorkers refuse to balance the budget on the backs of Black, brown and low-income communities.
+    
+    …Organizers say Gov. Cuomo has responded to the state's economic crisis with austerity, cutting essential services and failing to provide relief to the millions of New Yorkers who are experiencing food insecurity and are at risk of eviction. Community organizations, labor, faith, and service providers across the state stand with elected representatives in calling for between $50 billion and $70 billion in new, equitable revenue for a just budget and recovery for all.
+    (link: https://investinourny.org/panel/pages/press text: [ keep reading ])
+  source: 'CNY Central - Jan. 05, 2021'
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.00.40-pm.png
+  title: 'Salazar: A Tax on Stocks, Bonds, Other Derivatives Could Raise Over $12B a Year'
+  url: >
+    https://www.ny1.com/nyc/all-boroughs/politics/2021/01/06/wealth-tax-julia-salazar-on-tax-on-stocks-bonds-other-derivatives-new-york
+  excerpt: |
+    **NEW YORK** — Ahead of Wednesday's kickoff of the 2021 state legislative session, progressive groups are urging Gov. Andrew Cuomo and Albany lawmakers to deal with a historic fiscal crisis by (link: https://www.ny1.com/nyc/all-boroughs/news/2021/01/05/progressive-advocates-call-for-higher-taxes-on-wealthy-ahead-of-2021-legislative-session text: raising taxes on wealthy New Yorkers.)
+    
+    One of the elected leaders pushing for legislation on this front is State Sen. Julia Salazar of Brooklyn. She joined activists and other progressive figures outside of Cuomo's Manhattan office on Tuesday to launch the "Invest in Our New York Act."
+    (link: https://www.ny1.com/nyc/all-boroughs/politics/2021/01/06/wealth-tax-julia-salazar-on-tax-on-stocks-bonds-other-derivatives-new-york text: [ keep reading & watch the interview ])
+  source: 'NY1 - Jan. 05, 2021'
+- 
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.16.27-pm.png
+  title: >
+    Progressive groups unite to focus on
+    taxing the wealthy
+  url: >
+    https://blog.timesunion.com/capitol/archives/291331/progressive-groups-unite-to-focus-on-taxing-the-wealthy/
+  excerpt: |
+    **ALBANY** – With New York anticipating a multi-billion-dollar deficit for years to come, progressive groups are uniting in their efforts to convince state legislators to approve tax increases on the wealthiest New Yorkers.
+    
+    During a typical legislative session, advocacy groups would flood the Capitol to lobby lawmakers on various causes, programs and issues, but the coronavirus pandemic has kept the Capitol closed to visitors since early in the public health crisis and it remains closed to the public. While some issues progressive groups focus on may dovetail into one another, usually their priorities differ when lobbying lawmakers. But with state budget officials estimating a $64 billion deficit over the next four years, advocacy groups have honed in on raising revenue by taxing those who can afford it as a common cause to achieve their collective priorities.
+    
+    The size of the budget deficit is up for debate, with policy analysts estimating a smaller gap when factoring in actual revenues and federal aid received.
+    
+    Dozens of grassroot organizations and legislators on Tuesday held a virtual press conference to draw attention and support for a package of bills that raise taxes on wealthy residents, including taxing Wall Street transactions, a capital gains tax and a tax on inherited wealth, among others, projected to raise over $50 billion, according to a report conducted by the Invest in Our New York Campaign.
+    (link: https://blog.timesunion.com/capitol/archives/291331/progressive-groups-unite-to-focus-on-taxing-the-wealthy/ text: [ keep reading ])
+  source: 'Times Union - Jan. 05, 2021'

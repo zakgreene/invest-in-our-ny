@@ -48,7 +48,7 @@ fields:
                 labeL: Link
                 type: url
                 required: true
-                width: 2/3
+                width: 1/2
               button:
                 type: text
                 label: Button text

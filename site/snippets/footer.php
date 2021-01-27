@@ -20,8 +20,8 @@
     </div>
 </footer>
 
-<?= js('//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') ?>
-<script>window.jQuery || document.write("<script src='assets/js/jquery-3.2.1.min.js'>\x3C/script>");</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/assets/js/jquery-3.2.1.min.js'>\x3C/script>");</script>
 
 <?php if ($page->template() == 'home'): ?>
     <?= js('assets/js/swiper.min.js') ?>

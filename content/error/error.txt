@@ -1,4 +1,8 @@
-Title: Error
+Title: ERROR
+
+----
+
+Blocks: [{"content":{"text":"<p>Page not found. <\/p><p>Try: <strong><a href=\"\/\" rel=\"noopener noreferrer nofollow\">Sign the petition and learn more about the Invest in Our New York Act<\/a><\/strong><\/p><p><\/p>"},"id":"88d79c23-fae7-4e3f-a091-f574da6f076d","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["2021_iiony-ackka-25.jpg"],"src":"","alt":"","caption":null,"link":"","ratio":"","crop":"false"},"id":"b6ea86e5-d2a9-4f7d-a588-d94762636c36","isHidden":false,"type":"image"}]
 
 ----
 

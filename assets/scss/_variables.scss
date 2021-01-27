@@ -18,6 +18,7 @@ $bg-grey:           lighten(desaturate($light-yellow, 60%), 15%);
 
 // r2
 $navy:              #0d1b3f;
+$dark-navy:         saturate(darken($navy, 5.5%), 50%);
 
 $text:              $black;
 $link:              $red;

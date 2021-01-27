@@ -10,6 +10,21 @@
     border-top: 0.3rem solid $red;
     @include dark-bg;
 
+    .menu-open {
+        display: none;
+
+        @include mq($md) {
+            display: block;
+            position: absolute;
+            top: $gutter;
+            right: $page-margin-sm;
+        }
+
+        @include mq(#{$lg + 150px}) {
+            right: $page-margin;
+        }
+    }
+
     &__header {
         background: $white;
         color: $header-bg;
@@ -23,6 +38,10 @@
             padding-right: $gutter*0.75;
             padding-left: 0;
             margin-left: 0;
+            margin-right: $page-margin-sm;
+        }
+
+        @include mq($md + 125px) {
             margin-right: 0;
         }
 
@@ -57,6 +76,7 @@
         top: 0;
         left: $page-margin-sm;
         width: 4.5rem;
+        cursor: pointer;
 
         @include mq($md) {
             width: 5.5rem;
@@ -368,6 +388,10 @@
         @include mq($md) {
             padding: 0 $page-margin;
         }
+
+        span:focus {
+            outline: none;
+        }
     }
 
     .swiper-wrapper {
@@ -430,7 +454,6 @@
 
         h2 {
             color: $yellow;
-            text-align: left;
             @extend %sm-caps;
         }
     }
@@ -451,11 +474,17 @@
 .members {
 
     h3 {
+        @include heading-sm;
+        text-align: center;
         margin-bottom: $pad-md;
     }
 
     &--logos {
         background: $light-cyan;
+
+        @include mq($md) {
+            padding-bottom: #{$section-pad - 3rem};
+        }
 
         > .wrapper {
             display: flex;
@@ -533,15 +562,8 @@
 }
 
 
-.downloads {
+.downloads, .links {
     text-align: center;
-    background: linear-gradient($bg-yellow, $white) no-repeat;
-    border-top: $border;
-    background-size: 100% #{$section-pad*4};
-
-    @include mq($md) {
-        padding-bottom: $pad-sm;
-    }
 
     > .wrapper {
         max-width: $p-center-max;
@@ -571,6 +593,28 @@
             display: block;
             margin: 0 auto 1rem;
             max-width: 8rem;
+        }
+    }
+}
+
+.links {
+    li {
+        margin-bottom: $pad-sm;
+
+        &:last-child {
+            margin-bottom: $pad-sm;
+        }
+    }
+}
+
+.home {
+    .downloads, .links {
+        background: linear-gradient($bg-yellow, $white) no-repeat;
+        border-top: $border;
+        background-size: 100% #{$section-pad*4};
+
+        @include mq($md) {
+            padding-bottom: $pad-sm;
         }
     }
 }

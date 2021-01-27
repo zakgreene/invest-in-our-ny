@@ -30,6 +30,8 @@
                 <?= $page->petition() ?>    
             </div>
         </div>
+
+        <?php snippet("menu") ?>
     </div></section>
 
 
@@ -68,7 +70,7 @@
         <div class="swiper-pagination"></div>
     </section>
     <?php endif ?>
-    
+
 
     <?php if($page->downloads()->isNotEmpty()): ?>
     <section class="downloads"><div class="wrapper">

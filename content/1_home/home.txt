@@ -4,7 +4,7 @@ Title: Petition
 
 Topimg:
 
-- invest-banner.svg
+- 2021_notop-mediumsmalllogo-digital.png
 
 ----
 
@@ -12,20 +12,21 @@ Heading: Petition: Governor Cuomo, Pass the Act!
 
 ----
 
-Subhead: The Invest in Our New York Act raises $50 billion to rebuild New York's economy by ending tax breaks for the richest New Yorkers
+Subhead: The INVEST IN OUR NEW YORK ACT raises $50 billion to rebuild New York's economy by ending tax breaks for the richest New Yorkers
 
 ----
 
-Statement-pre: People in New York are hurting. While millions of New Yorkers can’t make rent or put food on the table the wealthiest have grown $77 billion richer during the pandemic. Tell Governor Cuomo, "New York can't wait—pass the Invest In Our NY Act NOW."
+Statement-pre: People in New York are hurting. While millions of New Yorkers can’t make rent or put food on the table the wealthiest have grown $77 billion richer during the pandemic. Tell Governor Cuomo, "New York can't wait—pass the INVEST IN OUR NEW YORK ACT, now."
 
 ----
 
 Statement:
 
 Our economy will only recover when working people have money. Governor Cuomo must end tax breaks for the wealthy and start investing in *our* New York:
-
 - **Prevent cuts** to public programs and invest in high quality education, jobs, housing and healthcare
-- **Ensure state revenue benefits the most vulnerable communities** including low-income New Yorkers, essential workers, communities of color, and workers excluded from federal unemployment
+- **Ensure state revenue benefits the most vulnerable communities** including essential workers, workers excluded from federal unemployment and low-income New Yorkers
+
+<a href="#about">Learn more about the Act &darr;</a>
 
 ----
 
@@ -39,7 +40,7 @@ Petition: <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='sty
 
 Inter-img:
 
-- ournewyork.jpg
+- iony-landingpage-pinkactbanner.jpg
 
 ----
 
@@ -47,7 +48,7 @@ Inter-bg: fd7274
 
 ----
 
-Slideshow-pre: The Invest In Our New York Act is a package of 6 bills that end tax breaks for the wealthiest New Yorkers and raises $50 billion to invest in our housing and healthcare, our schools and teachers, our towns and our cities, our workers and our youth
+Slideshow-pre: <span id="about">The Invest In Our New York Act is a package of 6 bills that end tax breaks for the wealthiest New Yorkers and raises $50 billion to invest in our housing and healthcare, our schools and teachers, our towns and our cities, our workers and our youth</span>
 
 ----
 
@@ -55,51 +56,105 @@ Slideshow:
 
 - 
   img:
-    - firstsiderslide.jpg
-  text: "##HERE'S HOW IT WORKS"
+    - ionynewyoork-26-26.png
+  text: |
+    ## How the Act works
+    Six State Bills That:
+    - Tax High Incomes
+    - Tax Wealth
+    - Tax the Financial Sector
 - 
   img:
-    - slides_website_graphs5.jpg
+    - fwebsite_landingpageslider3.png
   text: |
-    ##PROGRESSIVE INCOME TAX
-    Creates an equitable a tax system where
-    New Yorkers pay a higher rate if they earn significantly more money.
-    • RAISES: $12-18 BILLION
+    ##Progressive Income Tax
+    Creates an equitable tax system where New Yorkers pay a higher rate if they earn significantly more money.
+    - Raises: $12-18 billion
 - 
   img:
-    - slides_website_graphs7.jpg
+    - fwebsite_landingpageslider4.png
   text: |
-    ##CAPITAL GAINS TAX
+    ##Capital Gains Tax
     Taxes income from investments like stocks the same as wages.
-    • RAISES: $7 BILLION
+    - Raises: $7 billion
 - 
   img:
-    - demo4_billslide.jpg
+    - fwebsite_landingpageslider6.png
   text: |
-    ## The Heirs’ Tax
-    
-    This bill: A tax on large sums of inherited wealth.
+    ##Heirs’ Tax
+    A progressive tax on large sums of inherited wealth. *Inheritance not affected by tax: family houses up to $2 million, money from pensions or retirement funds, and family farms.*
+    - Raises: $8 billion
 - 
   img:
-    - sampleimg-2-1.png
+    - final_website_landingpageslider7.png
   text: |
-    ## Billionaires’ Tax
-    
-    This bill: A tax on New York's 120 billionaires who are worth $600 billion.
+    ##Billionaires’ Tax
+    A Billionaires’ tax & a Constitutional amendment to allow an additional tax
+    on wealth.
+    - Raises: $23 billion in the first year, $1.3 billion per year thereafter
 - 
   img:
-    - sampleimg-2-1.png
+    - fwebsite_landingpageslider9.png
   text: |
-    ## Wall Street Tax
-    
-    This bill: Unlike financial centers like London and Hong Kong, NY doesn’t tax financial transactions. This places a small tax on stocks and bonds trades.
+    ##Wall Street Tax
+    A small tax on Wall St. financial transactions
+    - Raises: $12-29 billion
 - 
   img:
-    - sampleimg-2-1.png
+    - fwebsite_landingpageslider10-1.png
   text: |
-    ## The Corporate Tax
-    
-    This bill: A bill to repeal the Trump corporate tax cuts, by restoring taxes on the profit a corporation makes each year.
+    ##Corporate Tax
+    A bill to repeal the Trump tax cuts, by
+    restoring taxes on the profit a corporation makes each year
+    - Raises: $9 billion
+- 
+  img:
+    - final_website_landingpageslider812.png
+  text: |
+    The Invest In Our New York Act:
+    - Bill #1: Progressive Income Tax
+    - Bill #2: Capital Gains Tax
+    - Bill #3: Heirs’ Tax
+    - Bill #4: Billionaires’ Tax
+    - Bill #5: Wall Street Tax
+    - Bill #6: Corporate Tax
+- 
+  img:
+    - f_weblandingslider.png
+  text: |
+    The Invest In Our New York Act:
+    - Bill #1: Progressive Income Tax
+    - Bill #2: Capital Gains Tax
+    - Bill #3: Heirs’ Tax
+    - Bill #4: Billionaires’ Tax
+    - Bill #5: Wall Street Tax
+    - Bill #6: Corporate Tax
+
+----
+
+Downloads-pre:
+
+**New York State faces a deficit of ~$60B over the next 4 years.** 
+Albany has responded with austerity, cutting essential services and failing to provide relief during our economic crisis. 
+
+**Learn more about the Invest In Our New York Act plan to fund our future:** Read the summary and full report (PDFs).
+
+----
+
+Downloads:
+
+- 
+  pdf:
+    - ionyfullreport_1.2_2021launch.pdf
+  img:
+    - bttn-full35pagereport-400x.png
+  button: Full Report
+- 
+  pdf:
+    - ionyactsummary_2021launch_1.2.pdf
+  img:
+    - bttn_5pagesummary.png
+  button: Act Summary
 
 ----
 
@@ -132,9 +187,14 @@ Orgs-pre:
 - African Services Committee
 - Bowen Public Affairs Consulting, Inc.
 - Campaign for New York Health
-- CDPAANYS
 - Center for Community Alternatives
 - Chinese-American Planning Council (CPC)
+
+----
+
+Orgs:
+
+- CDPAANYS
 - CUFFH
 - CUNY School of Labor and Urban Studies
 - District Council 37
@@ -161,11 +221,6 @@ Orgs-pre:
 - Tenants Political Action Committee
 - The #HALTsolitary Campaign
 - Youth Alliance for Housing (YAH)
-
-----
-
-Orgs:
-
 - Second Chance Reentry, Inc.
 - Teens Take Charge
 - Portside
@@ -228,6 +283,33 @@ Orgs:
 - Network for a Sustainable Tomorrow
 - Riders 4 Rights 
 - Morningside Heights Resistance
+- Truth Pharm Inc.
+- Bend the Arc: Jewish Action Long Island
+- Bend the Arc: Jewish Action Riverdale
+- Union of Musicians and Allied Workers (UMAW)
+- Young Invincibles
+- In The Fight North Brooklyn
+- Release Aging People in Prison Campaign 
+- City Wide Tenants Union
+- South Central Brooklyn United for Progress
+- Worker Justice Center of New York
+- Metro Justice
+- Indivisible Ulster
+- Lower Hudson Valley Democratic Socialists of America
+- CUNY Rising Alliance
+- League of Independent Theaters
+- Responsible Wealth
+- CNY Solidarity Coalition
+- Showing Up for Racial Justice, Rochester Chapter (SURJ ROC)
+- Main Street Alliance
+- To Do List
+- Westchester for Change
+- Ithaca Democratic Socialists of America
+- Human Services Council
+- New Economy Project
+- WESPAC Foundation, Inc.
+- Círculo de la Hispanidad
+- Upper West Side Action
 - Make the Road NY 
 - New York Communities for Change
 - Strong Economy for All
@@ -238,24 +320,17 @@ Orgs:
 - Alliance for Quality Education
 - VOCAL-NY
 - Housing Justice for All
-
-----
-
-Downloads-pre: The Invest In Our New York Act raises at least $50 billion annually. Learn more about the 'Invest In Our New York Act' with these downloads:
-
-----
-
-Downloads:
-
-- 
-  pdf:
-    - >
-      demo_investinourny_revenueraiserreport2021.pdf
-  img:
-    - launchreport_buttonviz.png
-  button: Full Report
-  file:
-    - voices-proposal-2019-12-16.pdf
+- Community Action for Safe Apartments (CASA)
+- Open Buffalo
+- United University Professions
+- Drug Policy Alliance - New York
+- Jahajee Sisters
+- Partnerships in Education to Avoid Criminal Justice System Entry (P.E.A.C.E. Afterschool Program, Inc.)
+- SURJ ROC (Showing Up for Racial Justice - Rochester, NY)
+- Rockland United
+- NYCD16-Invisible
+- Friends of Bridge, Inc.
+- Amplifying Activists Together
 
 ----
 

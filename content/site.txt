@@ -4,35 +4,33 @@ Title: Invest in Our New York
 
 Logo-top:
 
-- invest-sm.svg
+- ionyhoroweblogo_pageheaders-floating.png
 
 ----
 
 Logo-foot:
 
-- invest-sm-bw.svg
+- ionywebbannerlogo.png
 
 ----
 
-Fbtext: 
+Fbtext: #investinournewyork
 
 ----
 
 Fbimg:
 
-- >
-  squarepetitionshareable_investinournewyorkact.jpg
+- websitelinkassocimgsmpost_facebook.jpg
 
 ----
 
-Twtext: 
+Twtext: #investinournewyork
 
 ----
 
 Twimg:
 
-- >
-  twitter_petitionshareable_investinournewyorkact.jpg
+- iony-websitelink_twittershareimage.jpg
 
 ----
 

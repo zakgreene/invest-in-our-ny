@@ -4,11 +4,12 @@
     <section><div class="wrapper">
 
         <div class="contact__pre">
-            <?php if($success): ?>
+        <?php if($success): ?>
             <div class="alert success">
                 <p><?= $success ?></p>
             </div>
-            <?php else: ?>
+        </div>
+        <?php else: ?>
             <?= $page->text()->kt() ?>
 
             <?php if (isset($alert['error'])): ?>
@@ -58,9 +59,7 @@
                 <label for="text">
                     Message <abbr title="required">*</abbr>
                 </label>
-                <textarea id="text" name="text" required>
-                    <?= $data['text']?? '' ?>
-                </textarea>
+                <textarea id="text" name="text" required><?= $data['text']?? '' ?></textarea>
                 <?= isset($alert['text']) ? '<span class="alert error">' . html($alert['text']) . '</span>' : '' ?>
             </div>
             <input type="submit" name="submit" value="Submit">

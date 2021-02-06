@@ -69,6 +69,14 @@
         h1, h2, h3, h4, h5, h6, strong {
             color: $header-bg;
         }
+
+        h1 {
+        font-size: 1.875rem;
+
+            @include mq($md) {
+                font-size: 2rem;
+            }
+        }
     }
 
     &__logo {

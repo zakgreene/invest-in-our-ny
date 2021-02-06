@@ -1,6 +1,12 @@
 title: Page
 preset: page
+pages:
+  template: default
 fields:
+  alt_title:
+    label: Alternate Page Heading
+    type: text
+    help: If different from Title
   blocks:
     type: blocks
     fieldsets:
@@ -10,6 +16,7 @@ fields:
       - image
       - gallery
       - video
+      - markdown 
       section-start:
         name: Section
         icon: page
@@ -72,12 +79,14 @@ fields:
                 query: page.documents
                 help: PDF recommended
                 required: true
+                multiple: false
               img:
                 width: 1/2
                 type: files
                 label: Image preview
                 query: page.images
                 layout: cards
+                multiple: false
               gap:
                 type: gap
                 width: 1/2

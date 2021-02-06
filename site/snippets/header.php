@@ -36,7 +36,7 @@
 
         <a class="header__logo" href="<?= $site->url() ?>"><img src="<?= $site->logo_top()->toFile()->url() ?>" alt="<?= $site->title() ?>" /></a>
 
-        <h1><?= $page->title()->html() ?></h1>
+        <h1><?= ($page->alt_title()->isNotEmpty()) ? $page->alt_title()->html() : $page->title()->html() ?></h1>
 
         <?php snippet("menu") ?>
     </div>

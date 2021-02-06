@@ -1,0 +1,75 @@
+Title: Phonebank
+
+----
+
+Topimg:
+
+- phonebankflag.png
+
+----
+
+Heading: Sign up for upcoming phonebanking
+
+----
+
+Subhead: Phonebanking is crucial to help push NYS leaders to Tax the Rich & Invest In Our New York — Please sign up!
+
+----
+
+Statement-pre: (image: http://d3n8a8pro7vhmx.cloudfront.net/democratsabroad/pages/19439/attachments/original/1571661482/Stickler_phone_copy.jpg?1571661482)
+
+----
+
+Statement: 
+
+----
+
+Petition-pre: 
+
+----
+
+Petition: <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/invest-in-our-ny-phonebanking-sign-up?format=js&source=widget'></script><div id='can-form-area-invest-in-our-ny-phonebanking-sign-up' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
+----
+
+Inter-img: 
+
+----
+
+Inter-bg: 
+
+----
+
+Slideshow-pre: 
+
+----
+
+Slideshow: 
+
+----
+
+Downloads-pre: 
+
+----
+
+Downloads: 
+
+----
+
+Logos-title: 
+
+----
+
+Logos: 
+
+----
+
+Orgs-title: 
+
+----
+
+Orgs-pre: 
+
+----
+
+Orgs: 

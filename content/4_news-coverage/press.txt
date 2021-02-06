@@ -1,0 +1,509 @@
+Title: News
+
+----
+
+Press:
+
+- 
+  date: ""
+  title: >
+    How COVID-19 is inspiring new visions
+    for higher education
+  img:
+    - >
+      screen-shot-2021-02-05-at-10.59.10-am.png
+  url: 'https://www.cityandstateny.com/articles/policy/education/how-covid-19-inspiring-new-visions-higher-education.html?mc_cid=57ae97b8d8&mc_eid=3943e2f89d'
+  source: 'City and State New York - FEBRUARY 4, 2021'
+  excerpt: |
+    “Higher education advocates warned at a Feb. 4 state budget hearing that proposed cuts to public and private colleges could jeopardize the state’s pandemic recovery while worsening racial and economic inequities.”
+    
+    “State lawmakers, students, staff and faculty have a different vision for higher education this budget season. A proposed “New Deal for CUNY” aims to eliminate tuition, increase mental health and academic counseling, hire more faculty and expand public college campuses, according to activists.”
+    
+    “Advocates are also pushing for state lawmakers to increase funding for higher education while changing a longtime problem with the Tuition Assistance Program that helps students pay tuition.”
+    
+    “Advocates say that increased investments in higher education could turbocharge the state’s recovery from the pandemic, which has given them new moral arguments as well.”
+    
+    “Advocates say they support Cuomo’s efforts to secure $15 billion in new federal funding to help the state overcome a historical drop in state revenues, but they also want to increase taxes on high-earners, capital gains, stock transfers and corporations to fund their plans for higher education.”
+- 
+  date: ""
+  title: >
+    Lawmakers eye another rent relief
+    program before budget deadline
+  img:
+    - wcny-connected-logo.png
+  url: 'http://www.wcny.org/lawmakers-eye-another-rent-relief-program-before-budget-deadline/?mc_cid=e231d6b42f&mc_eid=3943e2f89d'
+  source: 'WCNY - February 4, 2021'
+  excerpt: |
+    **Gov. Andrew Cuomo’s budget proposal **calls for funding to flow through a state social services agency, while Senate Housing, Construction and Community Development Committee Chair Brian Kavanagh is also updating a competing rent relief plan.”
+    “We’re looking at legislation, and also I would say that we are looking at not waiting for the conclusion of the budget process,” Kavanagh told The Capitol Pressroom. “This is an urgent problem and we should be putting a program on the books and getting the money out the door as soon as possible.
+    
+    <a href="http://www.wcny.org/lawmakers-eye-another-rent-relief-program-before-budget-deadline/?mc_cid=e231d6b42f&mc_eid=3943e2f89d" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    New York’s Economic Recovery Relies on
+    Environmental Funding
+  img:
+    - >
+      screen-shot-2021-02-05-at-10.46.58-am.png
+  url: >
+    https://www.gothamgazette.com/opinion/10136-new-york-economic-recovery-environmental-funding
+  source: 'Gotham - February 5, 2021'
+  excerpt: |
+    “As state leaders consider how to address the state’s deficit and create a sustainable future, investing in environmental programs is the answer.“
+    
+    “Environmental programs, such as the Environmental Protection Fund, are proven to aid in state economic recovery, create good-paying jobs, and strengthen local economies while protecting our environment and mitigating the effects of climate change. This is what New Yorkers need and Governor Cuomo is already leading the charge.”
+    
+    <a href="https://www.gothamgazette.com/opinion/10136-new-york-economic-recovery-environmental-funding" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Senator Rivera and Assembly Member Kim
+    Introduce Capital Gains Tax Bill
+  img:
+    - seal_of_the_new_york_state_senate.svg
+  url: 'https://nystateofpolitics.com/state-of-politics/new-york/ny-state-of-politics/2021/02/02/rivera-and-kim-introduce-capital-gains-tax-bill?mc_cid=844baba429&mc_eid=3943e2f89d'
+  source: 'State Of Politics - February 2, 2021'
+  excerpt: |
+    Two state lawmakers have introduced a bill to tax capital gains in New York as the effort to increase taxes on the state's wealthiest residents takes another step forward.
+    
+    The bill backed by Sen. Gustavo Rivera and Assemblyman Ron Kim taxing investment income would raise $7 billion in revenue for the cash-strapped state, according to lawmakers' estimates.
+    
+    <a href="https://nystateofpolitics.com/state-of-politics/new-york/ny-state-of-politics/2021/02/02/rivera-and-kim-introduce-capital-gains-tax-bill?mc_cid=844baba429&mc_eid=3943e2f89d" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Senator Gianaris Wants Cuomo to Provide
+    $2.2 Billion Bailout for Renters and
+    Small Landlords
+  img:
+    - >
+      screen-shot-2021-02-04-at-10.17.01-am.png
+  url: >
+    https://astoriapost.com/gianaris-wants-cuomo-to-provide-2-2-billion-bailout-for-renters-and-small-landlords
+  source: 'Astoria Post - February 3, 2021'
+  excerpt: |
+    State Sen. Mike Gianaris is calling on the governor to provide a $2.2 billion relief package for residential tenants and small landlords in the upcoming state budget.
+    
+    Gianaris penned a letter to Cuomo on Feb. 1 stating that many tenants are suffering under the economic crisis and face the possibility of being evicted if they do not receive financial aid.
+    
+    The lawmaker wrote that the state cannot rely on the federal government to sufficiently bail out tenants and small landlords – such is the urgency of the matter – and wants Cuomo to establish a Housing Stability Relief Fund in the budget.
+    
+    <a href="https://astoriapost.com/gianaris-wants-cuomo-to-provide-2-2-billion-bailout-for-renters-and-small-landlords" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Queens lawmaker calls for tenant,
+    landlord relief in state budget
+  img:
+    - screen-shot-2021-02-03-at-4.07.00-pm.png
+  url: >
+    https://qns.com/2021/02/queens-lawmaker-calls-for-tenant-landlord-relief-in-state-budget/
+  source: 'QNS - February 2, 2021'
+  excerpt: |
+    As rent came due for millions across New York, state Senator Michael Gianaris urged Governor Andrew Cuomo to include $2.2 billion in relief assistance in this year’s budget. His proposal would supply funding for eligible landlords in exchange for rent forgiveness for tenants who have not been able to pay rent during the COVID-19 pandemic.
+    
+    “New York has spent the last year in the midst of a public health and economic crisis,” Gianaris said. “If we don’t take action now, we will also fall into a housing and eviction crisis. Whether funds come from the federal government or new sources of state revenue, we must include rent relief in this year’s state budget because tenants deserve peace of mind and small landlords should be made whole.”
+    
+    <a href="https://qns.com/2021/02/queens-lawmaker-calls-for-tenant-landlord-relief-in-state-budget/" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Pols introduce capital gains measure in
+    already high-tax New York
+  img:
+    - screen-shot-2021-02-03-at-3.43.42-pm.png
+  url: >
+    https://nypost.com/2021/02/02/new-york-lawmakers-introduce-capital-gains-measure
+  source: 'New York Post - February 2, 2021 '
+  excerpt: |
+    **ALBANY** — Democratic state lawmakers keen on raising taxes on higher-income earners to help close the state’s massive, multi-billion dollar deficit have introduced a new bill that would place an extra tax on investments.
+    
+    (link: https://investinourny.org/#aboutbills text: The new legislation) — sponsored by Democrats state Sen. Gustavo Rivera (D-The Bronx) and Assemblyman Ron Kim (D-Queens) — would place a new state tax on capital gains in addition to existing federal taxes on investments set between seven and 17 percent depending on income tier.
+    
+    <a href="https://nypost.com/2021/02/02/new-york-lawmakers-introduce-capital-gains-measure" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Rivera and Kim Introduce Capital Gains
+    Tax Bill
+  img:
+    - screen-shot-2021-02-03-at-3.42.11-pm.png
+  url: 'https://nystateofpolitics.com/state-of-politics/new-york/ny-state-of-politics/2021/02/02/rivera-and-kim-introduce-capital-gains-tax-bill?mc_cid=844baba429&mc_eid=4d229177c3'
+  source: 'State of Politics - February 2, 2021'
+  excerpt: |
+    Two state lawmakers, Senator Gustavo Rivera and Assemblyman Ron Kim, have introduced a bill to tax capital gains in New York as the effort to increase taxes on the state's wealthiest residents takes another step forward.   The value of this one bill is estimated to be over $7 billion in revenue to the State.
+    
+    <a href="https://nystateofpolitics.com/state-of-politics/new-york/ny-state-of-politics/2021/02/02/rivera-and-kim-introduce-capital-gains-tax-bill?mc_cid=844baba429&mc_eid=4d229177c3" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Albany Times Union Editorial on the need
+    for a Tax Hike for the Wealthy
+  img:
+    - screen-shot-2021-02-03-at-4.01.00-pm.png
+  url: 'https://www.timesunion.com/opinion/article/Editorial-Don-t-rule-out-a-tax-on-the-rich-15897386.php?mc_cid=cad84ad1f6&mc_eid=3943e2f89d'
+  source: 'The Albany Times Union Editorial Board - January 25, 2021'
+  excerpt: |
+    By Gov. Andrew Cuomo’s estimate, New York faces a $15 billion budget shortfall. So why is the state so hesitant to look for revenue where it obviously is: in a booming stock market and the growing incomes of the rich?
+    
+    <a href="https://www.timesunion.com/opinion/article/Editorial-Don-t-rule-out-a-tax-on-the-rich-15897386.php?mc_cid=cad84ad1f6&mc_eid=3943e2f89d" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    New Yorkers Must Push Candidates Hard
+    for Economic Recovery Vision
+  img:
+    - >
+      screen-shot-2021-01-27-at-11.04.12-pm.png
+  url: >
+    https://www.gothamgazette.com/opinion/10074-new-yorkers-push-2021-candidates-economic-recovery-vision-jobs-nyc
+  source: 'Gotham Gazette - January 20, 2021'
+  excerpt: |
+    **Regardless of Washington, New Yorkers have work to do at home.** We’ve been living through a pandemic for just about a year. Everyone in New York is aware we face major budget crises at the state and city levels. Resolution of our fiscal problems is one of the biggest challenges of 2021 and will influence New York City’s choice of candidates for top elected positions, including mayor and comptroller.
+    
+    This is not a normal election. As we begin to vet candidates in this year’s elections, it is critical that New Yorkers take extra care to research policy proposals beyond the slogans to assess how the next generation of political leaders can strengthen our economy while addressing long-standing systemic inequities…
+    
+    <a href="https://www.gothamgazette.com/opinion/10074-new-yorkers-push-2021-candidates-economic-recovery-vision-jobs-nyc" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Progressive lawmakers back comprehensive
+    package of higher state taxes
+  img:
+    - >
+      screen-shot-2021-01-27-at-10.26.32-pm.png
+  url: >
+    https://www.wcny.org/progressive-lawmakers-back-comprehensive-package-of-higher-state-taxes/
+  source: 'WCNY Connected - January 21, 2021'
+  excerpt: |
+    Activists and some lawmakers are calling on the state to raise taxes on the wealthy to help fill the state’s budget gap. Sen. Alessandra Biaggi (D-Bronx) shared what she would like to see in a final package.
+    
+    <a href="https://soundcloud.com/user-18109193/progressive-lawmakers-back-comprehensive-package-of-higher-state-taxes" target="_blank">Listen to the Podcast &rarr;</a>
+- 
+  date: ""
+  title: >
+    The MTA’s Fare Hike Has Been
+    Postponed, But The Fight Over Revenue Is
+    Just Starting
+  img:
+    - >
+      screen-shot-2021-01-27-at-11.00.11-pm.png
+  url: >
+    https://nyc.streetsblog.org/2021/01/20/the-mtas-fare-hike-has-been-postponed-but-the-fight-over-revenue-is-just-starting/
+  source: 'StreetsBlog NYC - January 20, 2021'
+  excerpt: |
+    **There’s gonna be a showdown.** Even after the MTA delayed a planned 4-percent fare hike that the board was set to vote on this week, progressive activists are vowing to keep up the fight to find alternate sources of revenue for the state’s mass transit system and head off a potential vote on the fare hike later this year.
+    
+    “We want to make clear that postponing a fare hike is not canceling a fare hike,” said Riders Alliance Organizing Manager Stephanie Burgos-Veras at a rally in front of MTA headquarters on Tuesday morning. “In two to three months, people’s financial situations will not magically get better. People are facing food insecurity, housing insecurity, they have seen their families pass away and have had to take on the costs of having to bury loved ones because of a scary and deadly virus.”
+    
+    Burgos-Veras was part of a collection of activists that rallied in favor of the Invest in Our New York Act, a package of six bills in front of the state Legislature that proponents say would raise $50 billion, some of which could go towards mass transit funding.
+    
+    <a href="https://nyc.streetsblog.org/2021/01/20/the-mtas-fare-hike-has-been-postponed-but-the-fight-over-revenue-is-just-starting/" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    New Yorkers Eagerly Await Governor’s
+    Executive Budget
+  img:
+    - >
+      screen-shot-2021-01-27-at-10.49.45-pm.png
+  url: >
+    https://www.tapinto.net/sections/government/articles/new-yorkers-eagerly-await-governor-s-executive-budget
+  source: 'Tapinto.net - January 18, 2021'
+  excerpt: |
+    **New York, NY**—New York Governor Andrew Cuomo will be presenting his 2022 Executive Budget from the State Capitol on Tuesday, January 19 and political observers, the business community and New Yorkers throughout the city and the state will be waiting to learn how much of a budget hole the state will face almost one year since the start of the coronavirus pandemic.
+    
+    <a href="https://www.tapinto.net/sections/government/articles/new-yorkers-eagerly-await-governor-s-executive-budget" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    The Budget Crisis Testing Blue State
+    Liberalism
+  img:
+    - >
+      screen-shot-2021-01-27-at-10.45.41-pm.png
+  url: >
+    https://www.huffpost.com/entry/budget-crisis-taxes-democrats-new-york-california-illinois_n_5fff7387c5b66f3f7963bb65
+  source: 'The Huffington Post -  January 14, 2021'
+  excerpt: |
+    **Some Democrats, who have promised to fight for ordinary people, are reluctant to raise taxes on the ultra-rich.**
+    
+    “Policymakers have choices,” said Cortney Sanders, a policy analyst for the Center on Budget’s state fiscal policy division. “They can make choices that exacerbate inequalities or they can make choices to move us toward an anti-racist and equitable future.”
+    
+    <a href="https://www.huffpost.com/entry/budget-crisis-taxes-democrats-new-york-california-illinois_n_5fff7387c5b66f3f7963bb65" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Freelance and artists’ groups balk at
+    Cuomo’s…
+  img:
+    - download.png
+  url: >
+    https://www.nydailynews.com/news/politics/new-york-elections-government/ny-cuomo-state-of-the-state-artists-freelancers-20210113-yzdejn2bajao7ppwvr7s5qpfdy-story.html
+  source: 'NY Daily News - January 13, 2021'
+  excerpt: |
+    **ALBANY **― Groups representing freelance artists and musicians facing dire straits due to the COVID pandemic are panning Gov. Cuomo’s plan to revitalize New York’s art scene by holding star-studded “pop-up shows” across the state.
+    
+    The Freelancers Union, the Union of Musicians and Allied Workers, the League of Independent Theater and the Music Workers Alliance are calling on the governor to instead raise taxes on the wealthy and create a new Works Progress Administration that could support artists and help get them back to work.
+    
+    “New York’s performing artists don’t need livestream concerts and comedy shows — we need you to end tax breaks for the wealthy and fund our state so we can survive,” the groups wrote in a letter sent to Cuomo.
+    
+    <a href="https://www.nydailynews.com/news/politics/new-york-elections-government/ny-cuomo-state-of-the-state-artists-freelancers-20210113-yzdejn2bajao7ppwvr7s5qpfdy-story.html" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: "3 Things to Watch for in Cuomo's Budget Plan"
+  img:
+    - >
+      screen-shot-2021-01-27-at-10.30.24-pm.png
+  url: >
+    https://spectrumlocalnews.com/nys/buffalo/ny-state-of-politics/2021/01/19/3-things-to-watch-for-in-cuomo-s-budget-plan
+  source: 'Spectrum News - January 19, 2021'
+  excerpt: |
+    How do you put together a budget without knowing how much money you'll have? That's the kitchen-table problem facing Gov. Andrew Cuomo and New York lawmakers in the coming weeks as Albany debates a spending plan and Washington debates a spending bill that could potentially send billions of dollars in aid to offset pandemic-related losses.
+    
+    Here are three things to watch for today as Cuomo releases his budget plan:
+    
+    <a href="https://spectrumlocalnews.com/nys/buffalo/ny-state-of-politics/2021/01/19/3-things-to-watch-for-in-cuomo-s-budget-plan" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Cuomo’s Tax Hike Friendlier to the
+    Rich Than Advertised, Budget Experts and
+    Legislators Say
+  img:
+    - >
+      screen-shot-2021-01-27-at-10.23.35-pm.png
+  url: >
+    https://www.nysfocus.com/2021/01/21/executive-budget-tax-increase/
+  source: 'NY Focus - January 21, 2021'
+  excerpt: |
+    …The tax increase would raise just $1.5 billion in the 2021 fiscal year, paired with $2.8 billion in proposed cuts, and would be enacted only if the federal government does not fulfill New York’s request for $15 billion in unrestricted aid, the governor said. Still, as the New York Times noted, it appeared to signal a significant shift for a governor who had previously resisted calls from the legislature to increase taxes on the wealthy.
+    
+    But budget documents made available only after Cuomo and his budget director, Robert Mujica, had given their addresses on Tuesday—and thus only after the first round of media coverage of the executive budget—showed that the tax proposal is considerably narrower than the governor’s speech made it seem.
+    
+    The tax increase would apply only for three years—and would be reimbursable, according to the executive budget briefing book. If high-income taxpayers paid all three years’ surcharge in advance this year, they would be paid back in 2024 and 2025…
+    
+    <a href="https://www.nysfocus.com/2021/01/21/executive-budget-tax-increase/" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    1 Campaign. 6 Bills. $50 Billion =
+    “Invest in Our NY”
+  img:
+    - >
+      screen-shot-2021-01-27-at-10.19.49-pm.png
+  url: 'https://spectrumlocalnews.com/nys/central-ny/capital-tonight/2021/01/14/1-campaign--6-bills---50-billion-----invest-in-our-ny-#'
+  source: 'Spectrum News - January 14, 2021'
+  excerpt: |
+    The “Invest in Our NY” coalition is comprised over 100 statewide organizations looking to persuade lawmakers to pass six bills that would raise over $50 billion in new revenue in 2021.
+    
+    “This is actually a fiscally wise approach to budgeting,” campaign manager Rebecca Bailin told Capital Tonight. “This is a common sense series of legislation that actually ends tax breaks for the wealthy.”
+    
+    The six bills would raise taxes on income, wealth, Wall Street transactions and corporations.
+    
+    One key difference between this campaign and others like it in the past is both the size of the tax increases, $50 billion, and that all the revenue is slated to go into the general fund, rather than being earmarked for special interests.
+    
+    “The need is massive,” Bailin said. “Spending cuts won’t save us and bring us to recovery but these revenue raisers will. We hope Governor Cuomo will act.”
+    
+    <a href="https://spectrumlocalnews.com/nys/central-ny/capital-tonight/2021/01/14/1-campaign--6-bills---50-billion-----invest-in-our-ny-#" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Progressive Advocates Unite Around
+    Tax-the-Rich Push in New York
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.00.40-pm.png
+  url: >
+    https://spectrumlocalnews.com/nys/central-ny/ny-state-of-politics/2021/01/08/progressive-advocates-unite-around-tax-the-rich-push-in-new-york
+  source: 'NY1 - January 8, 2021'
+  excerpt: |
+    **Advocacy groups from across the state **this week are backing a united push to increase taxes and end tax breaks on upper income earners in New York in a bid to raise $50 billion in revenue ahead of a contentious state budget season.
+    
+    The groups range from labor unions like DC 37 and PSC-CUNY in New York City to tenant advocacy organizations in Rochester and local progressive organizations with chapters in Tompkins County and Buffalo.
+    
+    <a href="https://spectrumlocalnews.com/nys/central-ny/ny-state-of-politics/2021/01/08/progressive-advocates-unite-around-tax-the-rich-push-in-new-york" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Albany legislators voice support for
+    "Invest in Our New York Act"
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.33.50-pm.png
+  url: >
+    https://13wham.com/news/local/local-legislators-voice-support-for-invest-in-our-new-york-act
+  source: 'WHAM - January 7, 2021'
+  excerpt: |
+    **Albany, N.Y./Rochester, N.Y**. – Legislators behind a new proposal in Albany say their legislation would target tax breaks against New York’s wealthiest to help reduce the state’s deficit.
+    
+    The “Invest in Our New York Act” aims to address economic inequality in the state, including for families impacted by COVID-19.
+    
+    Supporters claim past state budgets have aimed at cutting crucial services as a means to help New York’s economy. This, they allege, has come at a cost for vulnerable New Yorkers.
+    
+    <a href="https://13wham.com/news/local/local-legislators-voice-support-for-invest-in-our-new-york-act" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Democratic lawmakers back new taxes on
+    rich to plug state budget gap
+  img:
+    - screen-shot-2021-02-03-at-4.04.20-pm.png
+  url: >
+    https://www.rochestercitynewspaper.com/rochester/democratic-lawmakers-back-new-taxes-on-rich-to-plug-state-budget-gap/Content?oid=12699838
+  source: 'Rochester City Newspaper - January 8, 2021'
+  excerpt: |
+    **Democratic state lawmakers from the Rochester area are backing a package of bills that would raise taxes on wealthy New Yorkers.**
+    
+    Assembly members Harry Bronson, Jen Lunsford, Sarah Clark, and Demond Meeks, along with Senators Jeremy Cooney and Samra Brouk joined together during a Zoom call to announce their support for the Invest in Our New York Act. The series of six bills would place a number of new taxes on the wealthy and would raise between $71 and $94 billion in the first year, according to the lawmakers.
+    
+    <a href="https://www.rochestercitynewspaper.com/rochester/democratic-lawmakers-back-new-taxes-on-rich-to-plug-state-budget-gap/Content?oid=12699838" target="_blank">Keep Reading &rarr;</a>
+- 
+  date: ""
+  title: >
+    Progressives launch campaign to tax the
+    rich — Cuomo, de Blasio trade blame on
+    vaccine delays — More contagious U.K.
+    Covid strain found in New York
+  img:
+    - >
+      screen-shot-2021-01-08-at-11.24.26-am.png
+  url: >
+    https://www.politico.com/newsletters/new-york-playbook/2021/01/05/progressives-launch-campaign-to-tax-the-rich-cuomo-de-blasio-trade-blame-on-vaccine-delays-more-contagious-uk-covid-strain-found-in-new-york-491291
+  source: 'POLITICO - January 5, 2021'
+  excerpt: |
+    One day before the Legislature is supposed to start its new session, the big names on the state’s progressive left are announcing a coalition and campaign called Invest In Our New York, which promises that raising revenue from the richest individuals and corporations will be their top priority in 2021. They’re starting later today outside Gov. Andrew Cuomo’s New York City office and are planning a multi-punch rollout with events in Albany, Rochester and Long Island this week.
+    
+    **It’s a direct counter to the past and current budgeting practices of the governor, who has for months held off on addressing the fiscal strain he says the pandemic has caused and instead chosen to wait on the federal government for aid.**
+    (link: https://www.politico.com/newsletters/new-york-playbook/2021/01/05/progressives-launch-campaign-to-tax-the-rich-cuomo-de-blasio-trade-blame-on-vaccine-delays-more-contagious-uk-covid-strain-found-in-new-york-491291 text: [ keep reading ])
+- 
+  date: ""
+  title: >
+    As New York faced COVID-caused financial
+    crunch, lawmakers and grassroots push to
+    make the wealthy pay higher taxes
+  img:
+    - download.png
+  url: >
+    https://www.nydailynews.com/news/politics/new-york-elections-government/ny-wealth-taxes-covid-deficit-revenue-budget-20210105-serwuazxifhizkwzd3ohcrscju-story.html
+  source: 'New York Daily News - January 05, 2021'
+  excerpt: |
+    **ALBANY** — A new coalition of progressive legislators and grassroots organizations wants New York’s billionaires to pay their fair share.
+    
+    "By ending tax breaks for the rich, Gov., Cuomo and our leaders in Albany can prove their commitment to small businesses struggling to keep their doors open, students who deserve quality education, and everyday New Yorkers who suddenly find themselves unemployed, on food lines and unable to pay their rent," said Rebecca Bailin, who is managing the campaign.
+    (link: https://www.nydailynews.com/news/politics/new-york-elections-government/ny-wealth-taxes-covid-deficit-revenue-budget-20210105-serwuazxifhizkwzd3ohcrscju-story.html text: [ keep reading ])
+- 
+  date: ""
+  title: >
+    Progressive Advocates Call for Higher
+    Taxes on Wealthy Ahead of 2021
+    Legislative Session
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.00.40-pm.png
+  url: >
+    https://www.ny1.com/nyc/all-boroughs/news/2021/01/05/progressive-advocates-call-for-higher-taxes-on-wealthy-ahead-of-2021-legislative-session
+  source: 'NY1 - January 5, 2021'
+  excerpt: |
+    **Facing a multi-billion budget deficit brought on by the pandemic, a coalition of Democrats and their progressive allies say the solution is higher taxes on the wealthy.**…
+    
+    “Yes, we need federal government help. I will give you that. But even that alone won’t save this city’s new state,” said Public Advocate Jumaane Williams. “What [you] have to do as governor is use all of the tools that are available to you. You have not done that.”
+    
+    In a (link: https://investinourny.org/media/pages/home/f437403786-1610116749/ionyfullreport_1.2_2021launch.pdf text: 35-page report titled,) “invest in our New York, plan to fund our future,” advocates made their case that the wealthy are not paying their fair share, and need to step up now.
+    (link: https://www.ny1.com/nyc/all-boroughs/news/2021/01/05/progressive-advocates-call-for-higher-taxes-on-wealthy-ahead-of-2021-legislative-session text: [ keep reading ])
+- 
+  date: ""
+  title: >
+    Public Advocate Williams’ campaign to
+    ‘Invest in NY’ presses Cuomo to tax
+    the rich
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.10.36-pm.png
+  url: >
+    https://www.amny.com/news/public-advocate-jumaane-williams-launches-statewide-campaign-to-invest-in-our-new-york/
+  source: 'AMNY - January 5, 2021'
+  excerpt: |
+    “We are so proud to launch the ‘Invest in Our New York’ campaign to take care of each other and to rebuild our economy by ending tax breaks for the richest New Yorkers,” said Sochie Nnaemeka, director of the Working Families party.
+    (link: https://www.amny.com/news/public-advocate-jumaane-williams-launches-statewide-campaign-to-invest-in-our-new-york/ text: [ keep reading ])
+- 
+  date: ""
+  title: >
+    Lawmakers, grassroots groups rally,
+    asking New York to tax the rich
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.30.14-pm.png
+  url: >
+    https://cnycentral.com/news/local/lawmakers-grassroots-groups-rally-asking-new-york-to-tax-the-rich
+  source: 'CNY Central - January 5, 2021'
+  excerpt: |
+    **ALBANY, N.Y. (WRGB)** — As New York faces an unprecedented budget deficit of $60 billion over 4 years, working New Yorkers refuse to balance the budget on the backs of Black, brown and low-income communities.
+    
+    …Organizers say Gov. Cuomo has responded to the state's economic crisis with austerity, cutting essential services and failing to provide relief to the millions of New Yorkers who are experiencing food insecurity and are at risk of eviction. Community organizations, labor, faith, and service providers across the state stand with elected representatives in calling for between $50 billion and $70 billion in new, equitable revenue for a just budget and recovery for all.
+    (link: https://investinourny.org/panel/pages/press text: [ keep reading ])
+- 
+  date: ""
+  title: 'Salazar: A Tax on Stocks, Bonds, Other Derivatives Could Raise Over $12B a Year'
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.00.40-pm.png
+  url: >
+    https://www.ny1.com/nyc/all-boroughs/politics/2021/01/06/wealth-tax-julia-salazar-on-tax-on-stocks-bonds-other-derivatives-new-york
+  source: 'NY1 - January 5, 2021'
+  excerpt: |
+    **NEW YORK** — Ahead of Wednesday's kickoff of the 2021 state legislative session, progressive groups are urging Gov. Andrew Cuomo and Albany lawmakers to deal with a historic fiscal crisis by (link: https://www.ny1.com/nyc/all-boroughs/news/2021/01/05/progressive-advocates-call-for-higher-taxes-on-wealthy-ahead-of-2021-legislative-session text: raising taxes on wealthy New Yorkers.)
+    
+    One of the elected leaders pushing for legislation on this front is State Sen. Julia Salazar of Brooklyn. She joined activists and other progressive figures outside of Cuomo's Manhattan office on Tuesday to launch the "Invest in Our New York Act."
+    (link: https://www.ny1.com/nyc/all-boroughs/politics/2021/01/06/wealth-tax-julia-salazar-on-tax-on-stocks-bonds-other-derivatives-new-york text: [ keep reading & watch the interview ])
+- 
+  date: ""
+  title: >
+    Progressive groups unite to focus on
+    taxing the wealthy
+  img:
+    - >
+      screen-shot-2021-01-08-at-12.16.27-pm.png
+  url: >
+    https://blog.timesunion.com/capitol/archives/291331/progressive-groups-unite-to-focus-on-taxing-the-wealthy/
+  source: 'Times Union - January 5, 2021'
+  excerpt: |
+    **ALBANY** – With New York anticipating a multi-billion-dollar deficit for years to come, progressive groups are uniting in their efforts to convince state legislators to approve tax increases on the wealthiest New Yorkers.
+    
+    During a typical legislative session, advocacy groups would flood the Capitol to lobby lawmakers on various causes, programs and issues, but the coronavirus pandemic has kept the Capitol closed to visitors since early in the public health crisis and it remains closed to the public. While some issues progressive groups focus on may dovetail into one another, usually their priorities differ when lobbying lawmakers. But with state budget officials estimating a $64 billion deficit over the next four years, advocacy groups have honed in on raising revenue by taxing those who can afford it as a common cause to achieve their collective priorities.
+    
+    The size of the budget deficit is up for debate, with policy analysts estimating a smaller gap when factoring in actual revenues and federal aid received.
+    
+    Dozens of grassroot organizations and legislators on Tuesday held a virtual press conference to draw attention and support for a package of bills that raise taxes on wealthy residents, including taxing Wall Street transactions, a capital gains tax and a tax on inherited wealth, among others, projected to raise over $50 billion, according to a report conducted by the Invest in Our New York Campaign.
+    (link: https://blog.timesunion.com/capitol/archives/291331/progressive-groups-unite-to-focus-on-taxing-the-wealthy/ text: [ keep reading ])
+- 
+  date: 2021-02-02
+  title: Pols introduce capital gains measure
+  img:
+    - >
+      screen-shot-2021-02-04-at-10.25.47-am.png
+  url: >
+    https://nypost.com/2021/02/02/new-york-lawmakers-introduce-capital-gains-measure/
+  source: New York Post
+  excerpt: |
+    **ALBANY** — Democratic state lawmakers keen on (link: https://nypost.com/2020/12/09/ny-dems-eye-taxes-on-rich-sports-betting-amid-covid-fiscal-crisis/ text: raising taxes on higher-income earners) to help close the state’s massive, multi-billion dollar deficit have introduced a new bill that would place an (link: https://nypost.com/2020/12/14/ny-pol-racing-to-tax-rich-before-xmas-as-cuomo-says-wait-for-dc/ text: extra tax) on investments.
+    
+    The new legislation — sponsored by Democrats state Sen. Gustavo Rivera (D-The Bronx) and Assemblyman Ron Kim (D-Queens) — would place a new state tax on capital gains in addition to existing federal taxes on investments set between seven and 17 percent depending on income tier.
+- 
+  date: 2021-02-04
+  title: 'NY’s Ed Commissioner: Federal Aid Should Not Supplant State Funding'
+  img:
+    - >
+      screen-shot-2021-02-05-at-11.04.41-am.png
+  url: >
+    https://www.wamc.org/post/ny-s-ed-commissioner-federal-aid-should-not-supplant-state-funding
+  source: WAMC
+  excerpt: |
+    But state Education Commissioner Rosa says the money was intended to supplement already existing school funding, and help with what she says are “enormous” new costs associated with operating school systems during the pandemic. She says the money is not meant to fund the districts’ basic operating costs.
+    
+    “We are opposed to a one-shot federal fund replacing needed state dollars for schools,” Rosa said, at the hearing in late January.
+    
+    “Rosa says the funds are needed to make up for significant learning loss that’s occurred over the past year, as schools closed for a time, and then offered full or part-time remote learning.”
+    
+    “NYSUT President Andy Pallotta, a WAMC commentator, says one solution, if Washington does not come through with a relief package, is to raise income taxes on the wealthy.   The teachers union has launched a $300,000 advertising campaign, including digital media and billboards, to push for the new taxes.”

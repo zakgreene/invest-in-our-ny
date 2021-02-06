@@ -8,29 +8,27 @@ Topimg:
 
 ----
 
-Heading: Petition: Governor Cuomo, Pass the Act!
+Heading: Pass the Invest In Our New York Act
 
 ----
 
-Subhead: The INVEST IN OUR NEW YORK ACT raises $50 billion to rebuild New York's economy by ending tax breaks for the richest New Yorkers
+Subhead: The Act can raise $50 billion to rebuild New York's economy by ending tax breaks for the richest New Yorkers.
 
 ----
 
-Statement-pre: People in New York are hurting. While millions of New Yorkers can’t make rent or put food on the table the wealthiest have grown $77 billion richer during the pandemic. Tell Governor Cuomo, "New York can't wait—pass the INVEST IN OUR NEW YORK ACT, now."
+Statement-pre: While millions can’t make rent or put food on the table the wealthiest have grown $77 billion richer during the pandemic. Tell Governor Cuomo, "New York can't wait—pass the INVEST IN OUR NEW YORK ACT, now!"
 
 ----
 
 Statement:
 
 Our economy will only recover when working people have money. Governor Cuomo must end tax breaks for the wealthy and start investing in *our* New York:
-- **Prevent cuts** to public programs and invest in high quality education, jobs, housing and healthcare
-- **Ensure state revenue benefits the most vulnerable communities** including essential workers, workers excluded from federal unemployment and low-income New Yorkers
-
-<a href="#about">Learn more about the Act &darr;</a>
+- **Prevent cuts** to public programs and invest in high quality education, jobs, housing and healthcare.
+- **Ensure state revenue benefits the most vulnerable communities** including essential workers, workers excluded from federal unemployment and low-income New Yorkers.    <a href="#aboutbills">Learn more about the Act &darr;</a>
 
 ----
 
-Petition-pre: Sign the petition, pass the invest in our New York act:
+Petition-pre: Petition to demand we pass the 'Invest In Our New York Act'
 
 ----
 
@@ -40,7 +38,8 @@ Petition: <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='sty
 
 Inter-img:
 
-- iony-landingpage-pinkactbanner.jpg
+- >
+  ionywebsite_landingdisplayimage_updatehashtag.png
 
 ----
 
@@ -48,7 +47,7 @@ Inter-bg: fd7274
 
 ----
 
-Slideshow-pre: <span id="about">The Invest In Our New York Act is a package of 6 bills that end tax breaks for the wealthiest New Yorkers and raises $50 billion to invest in our housing and healthcare, our schools and teachers, our towns and our cities, our workers and our youth</span>
+Slideshow-pre: <span id="aboutbills">How It Works: A package of 6 bills that end tax breaks for the wealthiest New Yorkers and raises $50 billion to invest in our housing and healthcare, our schools and teachers, our towns and our cities, our workers and our youth.</span>
 
 ----
 
@@ -56,79 +55,93 @@ Slideshow:
 
 - 
   img:
-    - ionynewyoork-26-26.png
+    - iony-landingpage-dkbluenys.png
   text: |
-    ## How the Act works
-    Six State Bills That:
-    - Tax High Incomes
-    - Tax Wealth
-    - Tax the Financial Sector
+    ##The Invest In Our New York Act:
+    - Bill #1: Progressive Income Tax
+    - Bill #2: Capital Gains Tax
+    - Bill #3: Heirs’ Tax
+    - Bill #4: Billionaires’ Tax
+    - Bill #5: Corporate Tax
+    - Bill #6: Wall Street Tax
 - 
   img:
     - fwebsite_landingpageslider3.png
   text: |
     ##Progressive Income Tax
-    Creates an equitable tax system where New Yorkers pay a higher rate if they earn significantly more money.
-    - Raises: $12-18 billion
+    Bill# (link: https://www.nysenate.gov/legislation/bills/2021/s2622 text: S2622)
+    Creates a tax system where New Yorkers pay a significantly higher rate if they earn significantly more money.
+    - Assemblymember Meeks,
+    - Senator Jackson,
+    - Raises 50 billion.
 - 
   img:
     - fwebsite_landingpageslider4.png
   text: |
     ##Capital Gains Tax
-    Taxes income from investments like stocks the same as wages.
-    - Raises: $7 billion
+    Bill# (link: https://www.nysenate.gov/legislation/bills/2021/s2522 text: S2522), (link: https://assembly.state.ny.us/leg/?bn=A03352&leg_video= text: A03352): Taxes income from investments like stocks the same as wages.
+    - Assemblymember Kim,
+    - Senator Rivera,
+    - Raises: $7 billion.
 - 
   img:
     - fwebsite_landingpageslider6.png
   text: |
     ##Heirs’ Tax
-    A progressive tax on large sums of inherited wealth. *Inheritance not affected by tax: family houses up to $2 million, money from pensions or retirement funds, and family farms.*
-    - Raises: $8 billion
+    Bill# (link: https://www.nysenate.gov/legislation/bills/2021/S3462 text: S3462): A progressive tax on large sums of inherited wealth. *Inheritance not affected by tax: family houses up to $2 million, money from pensions or retirement funds, and family farms.*
+    - Assemblymember Solages,
+    - Senators Brisport, Sanders,
+    - Raises: $8 billion.
 - 
   img:
     - final_website_landingpageslider7.png
   text: |
     ##Billionaires’ Tax
-    A Billionaires’ tax & a Constitutional amendment to allow an additional tax
-    on wealth.
-    - Raises: $23 billion in the first year, $1.3 billion per year thereafter
+    Bill #4: *AKA Mark to Market Tax.*
+    Billionaires’ tax and a Constitutional amendment to allow an additional tax on wealth.
+    - Assemblymember De La Rosa,
+    - Senator Ramos,
+    - Raises: $23 billion in the first year, $1.3 billion per year thereafter.
 - 
   img:
     - fwebsite_landingpageslider9.png
   text: |
-    ##Wall Street Tax
-    A small tax on Wall St. financial transactions
-    - Raises: $12-29 billion
+    ##Corporate Tax
+    Bill#  (link: https://www.nysenate.gov/legislation/bills/2021/s2833 text: S2833): A bill to repeal the Trump tax cuts, by restoring taxes on the profit a corporation makes each year.
+    - Assemblymember Kelles,
+    - Senator Hoylman,
+    - Raises: $9 billion.
 - 
   img:
     - fwebsite_landingpageslider10-1.png
   text: |
-    ##Corporate Tax
-    A bill to repeal the Trump tax cuts, by
-    restoring taxes on the profit a corporation makes each year
-    - Raises: $9 billion
+    ##The Wall Street Tax
+    Bill#  (link: https://www.nysenate.gov/legislation/bills/2021/s3980 text: S3980): *AKA Financial Transaction Tax.* A bill to repeal the Trump tax cuts, by restoring taxes on the profit a corporation makes each year.
+    -  Assemblymember Niou,
+    - Senator Salazar,
+    - Raises: $9 billion.
 - 
   img:
     - final_website_landingpageslider812.png
   text: |
     The Invest In Our New York Act:
-    - Bill #1: Progressive Income Tax
-    - Bill #2: Capital Gains Tax
-    - Bill #3: Heirs’ Tax
-    - Bill #4: Billionaires’ Tax
-    - Bill #5: Wall Street Tax
-    - Bill #6: Corporate Tax
+    - Progressive Income Tax (link: https://www.nysenate.gov/legislation/bills/2021/s2622 text: S2622)
+    - Capital Gains Tax (link: https://www.nysenate.gov/legislation/bills/2021/s2522 text: S2522)/(link: https://www.nysenate.gov/search/global/A3352 text: A3352)
+    - Heirs’ Tax (link: https://www.nysenate.gov/legislation/bills/2021/S3462 text: S3462)
+    - Billionaires’ Tax
+    - Corporate Tax (link: https://www.nysenate.gov/legislation/bills/2021/s2833 text: S2833)
+    - Wall Street Tax (link: https://www.nysenate.gov/legislation/bills/2021/s3980 text: S3980)
 - 
   img:
     - f_weblandingslider.png
   text: |
     The Invest In Our New York Act:
-    - Bill #1: Progressive Income Tax
-    - Bill #2: Capital Gains Tax
-    - Bill #3: Heirs’ Tax
-    - Bill #4: Billionaires’ Tax
-    - Bill #5: Wall Street Tax
-    - Bill #6: Corporate Tax
+    - Progressive Income Tax (link: https://www.nysenate.gov/legislation/bills/2021/s2622 text: S2622)
+    - Capital Gains Tax (link: https://www.nysenate.gov/legislation/bills/2021/s2522 text: S2522)/(link: https://www.nysenate.gov/search/global/A3352 text: A3352)
+    - Heirs’ Tax (link: https://www.nysenate.gov/legislation/bills/2021/S3462 text: S3462)
+    - Billionaires’ Tax
+    - Corporate Tax (link: https://www.nysenate.gov/legislation/bills/2021/s2833 text: S2833)
+    - Wall Street Tax (link: https://www.nysenate.gov/legislation/bills/2021/s3980 text: S3980)
 
 ----
 

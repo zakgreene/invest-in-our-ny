@@ -1,0 +1,16 @@
+title: Link
+preset: page
+pages: false
+files: false
+icon: url
+
+fields:
+  linkinfo:
+    label:
+    type: info
+    text: This template is used to link an external page in the menu. It won't create a new page.
+  link:
+    label: Link
+    type: url
+    width: 1/2
+

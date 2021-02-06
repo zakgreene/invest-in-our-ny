@@ -31,9 +31,12 @@
     }
 
     &__image {
+        margin-bottom: 0.75em;
+
         @include mq($md) {
             flex: 1;
             margin-right: $gutter;
+            margin-bottom: 0;
         }
     }
 
@@ -43,9 +46,13 @@
         }
     }
 
-    &__source {
-        font-style: italic;
+    &__details {
         font-size: $font-sm;
         line-height: $leading-tight;
+    }
+
+    &__source {
+        font-style: italic;
+        margin-left: 0.75em;
     }
 }

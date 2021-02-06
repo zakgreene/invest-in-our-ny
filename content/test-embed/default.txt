@@ -1,0 +1,5 @@
+Title: test embed
+
+----
+
+Blocks: [{"content":{"text":"<p>&lt;link href='<a href=\"https:\/\/actionnetwork.org\/css\/style-embed-v3.css\" rel=\"noopener noreferrer nofollow\">https:\/\/actionnetwork.org\/css\/style-embed-v3.css<\/a>' rel='stylesheet' type='text\/css' \/&gt;&lt;script src='<a href=\"https:\/\/actionnetwork.org\/widgets\/v3\/form\/invest-in-our-ny-phonebanking-sign-up?format=js&amp;source=widget\" rel=\"noopener noreferrer nofollow\">https:\/\/actionnetwork.org\/widgets\/v3\/form\/invest-in-our-ny-phonebanking-sign-up?format=js&amp;source=widget<\/a>'&gt;&lt;\/script&gt;&lt;div id='can-form-area-invest-in-our-ny-phonebanking-sign-up' style='width: 100%'&gt;&lt;!-- this div is the target for our HTML insertion --&gt;&lt;\/div&gt;<\/p>"},"id":"5a84666e-0542-4cf3-8869-b372d6185d76","isHidden":false,"type":"text"}]

@@ -10,7 +10,7 @@ Logo-top:
 
 Logo-foot:
 
-- ionywebbannerlogo.png
+- iony_newwebsitefooter.png
 
 ----
 

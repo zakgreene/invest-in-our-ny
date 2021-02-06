@@ -3,8 +3,12 @@
 <nav id="menu" class="menu">
     <a class="menu-close"><img src="<?= $kirby->url('assets') ?>/img/close.svg" alt="Close Menu" /></a>
     <ul>
-        <?php foreach ($site->children()->listed() as $item): ?>
+    <?php foreach ($site->children()->listed() as $item): ?>
+        <?php if($item->template() == 'link'): ?>
+        <li><a href="<?= $item->link()->html() ?>" target="_blank"><?= $item->title()->html() ?></a></li>
+        <?php else: ?>
         <li><?= $item->title()->link() ?></li>
-        <?php endforeach ?>
+        <?php endif ?>
+    <?php endforeach ?>
     </ul>
 </nav>

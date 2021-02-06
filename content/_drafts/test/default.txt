@@ -1,4 +1,4 @@
-Title: Test
+Title: Heading and Type Styles
 
 ----
 

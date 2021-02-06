@@ -15,7 +15,7 @@ columns:
             type: files
             width: 1/4
             layout: cards
-            max: 1
+            multiple: false
           heading:
             label: Headline
             type: text
@@ -52,7 +52,7 @@ columns:
             label: Image after petition
             type: files
             layout: cards
-            max: 1
+            multiple: false
             width: 3/4
             help: >
               Suggested size: 1025x512px, 2x1 aspect ratio or wider
@@ -82,6 +82,7 @@ columns:
                 type: files
                 label: Image
                 query: page.images
+                multiple: false
                 help: >
                   Suggested size: 650x325px, 2x1 aspect ratio
 
@@ -114,12 +115,14 @@ columns:
                 query: page.documents
                 help: PDF recommended
                 required: true
+                multiple: false
               img:
                 width: 1/2
                 type: files
                 label: Image preview
                 query: page.images
                 layout: cards
+                multiple: false
               gap:
                 type: gap
                 width: 1/2

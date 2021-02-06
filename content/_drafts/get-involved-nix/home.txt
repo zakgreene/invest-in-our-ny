@@ -1,0 +1,79 @@
+Title: Get Involved - nix
+
+----
+
+Topimg: - 2021_notop-mediumsmalllogo-digital.png
+
+----
+
+Heading: Get Involved
+
+----
+
+Subhead: Sign up for upcoming phonebanking opportunities to help push NYS leaders to Tax the Rich & Invest In Our New York
+
+----
+
+Statement-pre: Over the past 10 budgets, the Governor has led the state into a massive deficit and a tiny rainy day fund. Governor Cuomo has failed to budget effectively. The Invest In Our New York Act is common sense legislation to end tax breaks on the very wealthy.
+
+----
+
+Statement:
+
+- After the 2008 financial crisis, economists found that states that leaned on spending cuts delayed recovery by 4 years. Tax increases on the very wealthy, conversely, have a positive effect: they grow the GDP.
+
+- Example of antiquated tax code: Right now in NY, individuals with incomes between $21,000 and $1,000,000 all pay roughly the same state tax rate of 6.5%.  
+
+- 90% of New Yorkers support taxes on the wealthy rather than cuts to working people.
+
+----
+
+Petition-pre: Phone Banking Sign-Up Form
+
+----
+
+Petition: <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/invest-in-our-ny-phonebanking-sign-up?format=js&source=widget'></script><div id='can-form-area-invest-in-our-ny-phonebanking-sign-up' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
+----
+
+Inter-img: - andreasc_bannerquotewebsite2.png
+
+----
+
+Inter-bg: ffffff
+
+----
+
+Slideshow-pre: Our economy will only recover when working people have money. We're calling our leaders and urging them to support the Invest in Our New York Act to help our state recover and rebuild.
+
+----
+
+Slideshow: 
+
+----
+
+Downloads-pre: 
+
+----
+
+Downloads: 
+
+----
+
+Logos-title: 
+
+----
+
+Logos: 
+
+----
+
+Orgs-title: 
+
+----
+
+Orgs-pre: 
+
+----
+
+Orgs: 

@@ -12,7 +12,11 @@
     <div class="wrapper">
         <ul>
             <?php foreach ($site->children()->listed() as $item): ?>
-            <li><?= $item->title()->link() ?></li>
+                <?php if($item->template() == 'link'): ?>
+                <li><a href="<?= $item->link()->html() ?>" target="_blank"><?= $item->title()->html() ?></a></li>
+                <?php else: ?>
+                <li><?= $item->title()->link() ?></li>
+                <?php endif ?>
             <?php endforeach ?>
         </ul>
 
